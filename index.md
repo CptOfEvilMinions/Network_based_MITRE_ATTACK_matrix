@@ -13,7 +13,7 @@ layout: home
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
-                <a class="technique" href="{{ site.url }}{{ site.baseurl }}{{ technique.permalink }}">{{ technique.title }}</a>
+                <a class="technique" href="{{ site.url }}{{ technique.permalink }}">{{ technique.title }}</a>
             {% endif %}
         {% endfor %}
     </div>
