@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-12T17:18:44-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Network based MITRE ATT&amp;amp;CK matrix</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html"></title><link href="http://localhost:4000/themes/%3Ctheme_name%3E" rel="alternate" type="text/html" title="&lt;theme name&gt;" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/template</id><content type="html" xml:base="http://localhost:4000/themes/%3Ctheme_name%3E">&lt;description&gt;
+
+## Resources/Sources
+&lt;/description&gt;</content><author><name></name></author><category term="themes" /><summary type="html"></summary></entry><entry><title type="html">Masquerade</title><link href="http://localhost:4000/themes/masquerade" rel="alternate" type="text/html" title="Masquerade" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/masquerade</id><content type="html" xml:base="http://localhost:4000/themes/masquerade">&lt;p&gt;&lt;a href=&quot;https://searchsecurity.techtarget.com/definition/masquerade&quot;&gt;Masquerade&lt;/a&gt; is a disguise. In terms of communications security issues, a masquerade is a type of attack where the attacker pretends to be an authorized user of a system in order to gain access to it or to gain greater privileges than they are authorized for.&lt;/p&gt;
+
+&lt;p&gt;A masquerade may be attempted through the use of stolen logon IDs and passwords, through finding security gaps in programs, or through bypassing the authentication mechanism. The attempt may come from within an organization, for example, from an employee; or from an outside user through some connection to the public network. Weak authentication provides one of the easiest points of entry for a masquerade, since it makes it much easier for an attacker to gain access.&lt;/p&gt;
+
+&lt;p&gt;Once the attacker has been authorized for entry, they may have full access to the organization’s critical data, and (depending on the privilege level they pretend to have) may be able to modify and delete software and data, and make changes to network configuration and routing information.&lt;/p&gt;
+
+&lt;h2 id=&quot;categories&quot;&gt;Categories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spoofing&lt;/li&gt;
+  &lt;li&gt;Hijacking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://searchsecurity.techtarget.com/definition/masquerade&quot;&gt;SearchSecurity - Masquerade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">Masquerade is a disguise. In terms of communications security issues, a masquerade is a type of attack where the attacker pretends to be an authorized user of a system in order to gain access to it or to gain greater privileges than they are authorized for.</summary></entry><entry><title type="html">Lateral movement</title><link href="http://localhost:4000/themes/lateral_movement" rel="alternate" type="text/html" title="Lateral movement" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/lateral_movement</id><content type="html" xml:base="http://localhost:4000/themes/lateral_movement">&lt;p&gt;The attacker uses his access to move from system to system within the compromised environment. Common lateral movement methods include accessing network shares, using the Windows Task Scheduler to execute programs, using remote access tools such as PsExec, or using remote desktop clients such as Remote Desktop Protocol (RDP), DameWare, or Virtual Network Computing (VNC) to interact with target systems using a graphical user interface.&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker uses his access to move from system to system within the compromised environment. Common lateral movement methods include accessing network shares, using the Windows Task Scheduler to execute programs, using remote access tools such as PsExec, or using remote desktop clients such as Remote Desktop Protocol (RDP), DameWare, or Virtual Network Computing (VNC) to interact with target systems using a graphical user interface.</summary></entry><entry><title type="html">Internal recon</title><link href="http://localhost:4000/themes/internal_recon" rel="alternate" type="text/html" title="Internal recon" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/internal_recon</id><content type="html" xml:base="http://localhost:4000/themes/internal_recon">&lt;p&gt;The attacker explores the victim’s environment to gain a better understanding of the environment, the roles and responsibilities of key individuals, and to determine where an organization stores information of interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker explores the victim’s environment to gain a better understanding of the environment, the roles and responsibilities of key individuals, and to determine where an organization stores information of interest.</summary></entry><entry><title type="html">Initial compromise</title><link href="http://localhost:4000/themes/initial_compromise" rel="alternate" type="text/html" title="Initial compromise" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/initial_compromise</id><content type="html" xml:base="http://localhost:4000/themes/initial_compromise">&lt;p&gt;The attacker successfully executes malicious code on one or more systems. This most likely occurs through social engineering (most often spear phishing), by exploiting a vulnerability on an Internet-facing system, or by any other means necessary.&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker successfully executes malicious code on one or more systems. This most likely occurs through social engineering (most often spear phishing), by exploiting a vulnerability on an Internet-facing system, or by any other means necessary.</summary></entry><entry><title type="html">Evasion</title><link href="http://localhost:4000/themes/evasion" rel="alternate" type="text/html" title="Evasion" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/evasion</id><content type="html" xml:base="http://localhost:4000/themes/evasion">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Evasion_(network_security)&quot;&gt;Evasion&lt;/a&gt; is bypassing an information security device in order to deliver an exploit, attack, or other form of malware to a target network or system, without detection. Evasions are typically used to counter network-based intrusion detection and prevention systems (IPS, IDS) but can also be used to by-pass firewalls and defeat malware analysis. A further target of evasions can be to crash a network security device, rendering it in-effective to subsequent targeted attacks.&lt;/p&gt;
+
+&lt;h2 id=&quot;categories&quot;&gt;Categories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Proctocol vulnerabilities&lt;/li&gt;
+  &lt;li&gt;Covert channels&lt;/li&gt;
+  &lt;li&gt;Anti-forensics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Encoding&lt;/li&gt;
+  &lt;li&gt;Encryption&lt;/li&gt;
+  &lt;li&gt;Network tunneling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Evasion_(network_security)&quot;&gt;WikiPedia - Evasion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">Evasion is bypassing an information security device in order to deliver an exploit, attack, or other form of malware to a target network or system, without detection. Evasions are typically used to counter network-based intrusion detection and prevention systems (IPS, IDS) but can also be used to by-pass firewalls and defeat malware analysis. A further target of evasions can be to crash a network security device, rendering it in-effective to subsequent targeted attacks.</summary></entry><entry><title type="html">DOS</title><link href="http://localhost:4000/themes/dos" rel="alternate" type="text/html" title="DOS" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/dos</id><content type="html" xml:base="http://localhost:4000/themes/dos">&lt;p&gt;A &lt;a href=&quot;https://www.techopedia.com/definition/24841/denial-of-service-attack-dos&quot;&gt;denial-of-service (DoS)&lt;/a&gt; is any type of attack where the attackers (hackers) attempt to prevent legitimate users from accessing the service.&lt;/p&gt;
+
+&lt;p&gt;In a DoS attack, the attacker usually sends excessive messages asking the network or server to authenticate requests that have invalid return addresses. The network or server will not be able to find the return address of the attacker when sending the authentication approval, causing the server to wait before closing the connection. When the server closes the connection, the attacker sends more authentication messages with invalid return addresses. Hence, the process of authentication and server wait will begin again, keeping the network or server busy.&lt;/p&gt;
+
+&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SYN floods&lt;/li&gt;
+  &lt;li&gt;UDP amplification attacks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.techopedia.com/definition/24841/denial-of-service-attack-dos&quot;&gt;denial-of-service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">A denial-of-service (DoS) is any type of attack where the attackers (hackers) attempt to prevent legitimate users from accessing the service.</summary></entry><entry><title type="html">Delivery</title><link href="http://localhost:4000/themes/delivery" rel="alternate" type="text/html" title="Delivery" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/delivery</id><content type="html" xml:base="http://localhost:4000/themes/delivery">&lt;p&gt;The mechanism used to distribute the malicious code to the target.&lt;/p&gt;
+
+&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phishing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The mechanism used to distribute the malicious code to the target.</summary></entry><entry><title type="html">Command and control</title><link href="http://localhost:4000/themes/command_and_control" rel="alternate" type="text/html" title="Command and control" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/command_and_control</id><content type="html" xml:base="http://localhost:4000/themes/command_and_control">&lt;p&gt;A &lt;a href=&quot;https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server&quot;&gt;Command and Control [C&amp;amp;C] Server&lt;/a&gt; is a computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network.&lt;/p&gt;
+
+&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTTP&lt;/li&gt;
+  &lt;li&gt;DNS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server&quot;&gt;Command and Control [C&amp;amp;C] Server&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">A Command and Control [C&amp;amp;C] Server is a computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network.</summary></entry><entry><title type="html">Actions on objective</title><link href="http://localhost:4000/themes/actions_on_objective" rel="alternate" type="text/html" title="Actions on objective" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/themes/actions_on_objective</id><content type="html" xml:base="http://localhost:4000/themes/actions_on_objective">&lt;p&gt;The &lt;a href=&quot;https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf&quot;&gt;actions and objectives&lt;/a&gt; of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.&lt;/p&gt;
+
+&lt;p&gt;In the case of data exfiltration, the APT may be interested in organizational proprietary data such as engineering designs or employee and customer Personally Identifiable Information (PII). In the case of a denial of service, like the Ukrainian power outage of December 2015, the APT may disable a key component of the organization’s infrastructure to temporarily disrupt services.&lt;/p&gt;
+
+&lt;p&gt;Finally, in the case of destruction, an APT like the Stuxnet worm may seek to operate industrial control systems outside of their manufacturer specifications, resulting in catastrophic failure.&lt;/p&gt;
+
+&lt;h2 id=&quot;types&quot;&gt;Types&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Exfil&lt;/li&gt;
+  &lt;li&gt;Destruction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf&quot;&gt;The Cyber Kill Chain Explained&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The actions and objectives of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.</summary></entry></feed>
