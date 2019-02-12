@@ -6,7 +6,7 @@ category: techniques
 theme: Evasion
 Id: 13
 description: 'Compression is the act of reducing the number of bits needed to represent data. Attackers may use compression to obfuscate the data being transfered, bundle malware and tools, or a faster upload during exfiltration'
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/evasion/compression
+permalink: /techniques/evasion/compression
 ---
 {{ page. description }}
 
