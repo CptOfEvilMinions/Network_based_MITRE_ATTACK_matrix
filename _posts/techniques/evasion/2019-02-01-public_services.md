@@ -6,7 +6,7 @@ category: techniques
 theme: Evasion
 Id: 18
 description: 'The malware communicates with a public service such as Google or Dropbox. These services can be used for the staging of malware or C2 communication.'
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/evasion/public_services
+permalink: Network_based_MITRE_ATTACK_matrix/techniques/evasion/public_services
 ---
 {{ page. description }}
 

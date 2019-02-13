@@ -6,7 +6,7 @@ category: techniques
 theme: "Command and control"
 Id: 05
 description: 'Remote Administration tools like TeamViewer can be used to control a machine remotely. Tools like TeamViewer are legitimate applications that are signed and may be trusted by security controls.'
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/commmand_and_control/remote_admin_tools
+permalink: Network_based_MITRE_ATTACK_matrix/techniques/commmand_and_control/remote_admin_tools
 ---
 {{ page.description }}
 

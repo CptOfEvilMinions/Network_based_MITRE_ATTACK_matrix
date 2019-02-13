@@ -4,7 +4,7 @@ enabled: true
 title: Masquerade
 category: themes
 description: "[Masquerade](https://searchsecurity.techtarget.com/definition/masquerade) is a disguise. In terms of communications security issues, a masquerade is a type of attack where the attacker pretends to be an authorized user of a system in order to gain access to it or to gain greater privileges than they are authorized for."
-permalink: '/Network_based_MITRE_ATTACK_matrix/themes/masquerade'
+permalink: 'Network_based_MITRE_ATTACK_matrix/themes/masquerade'
 ---
 {{ page.description }}
 

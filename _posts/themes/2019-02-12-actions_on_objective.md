@@ -4,7 +4,7 @@ enabled: true
 title: "Actions on objective"
 category: themes
 description: The [actions and objectives](https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf) of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.
-permalink: '/Network_based_MITRE_ATTACK_matrix/themes/actions_on_objective'
+permalink: 'Network_based_MITRE_ATTACK_matrix/themes/actions_on_objective'
 ---
 {{ page.description }}
 

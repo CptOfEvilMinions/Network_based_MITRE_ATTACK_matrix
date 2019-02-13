@@ -6,7 +6,7 @@ category: techniques
 theme: "Command and control"
 Id: 04
 description: ""
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/listening_service
+permalink: Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/listening_service
 ---
 {{ page. description }}
 

@@ -6,7 +6,7 @@ category: techniques
 theme: 'Lateral movement'
 Id: 23
 description: 'Attackers will use valid credentials to move laterally in environment by utilizing remote desktop.'
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/lateral_movement/remote_desktop
+permalink: Network_based_MITRE_ATTACK_matrix/techniques/lateral_movement/remote_desktop
 
 ---
 {{ page. description }}

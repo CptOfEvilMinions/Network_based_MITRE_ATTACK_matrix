@@ -6,7 +6,7 @@ category: techniques
 theme: Evasion
 Id: 14
 description: 'Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechaniss to thwart defenders.'
-permalink: /Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation
+permalink: Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation
 ---
 {{ page. description }}
 
