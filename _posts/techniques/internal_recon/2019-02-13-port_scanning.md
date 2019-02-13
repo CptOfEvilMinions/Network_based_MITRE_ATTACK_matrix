@@ -1,23 +1,20 @@
 ---
 layout: post
 enabled: false
-title: 'Peer-to-peer'
+title: 'Port scanning'
 category: techniques
-theme: 'Command and control'
-Id: 36
-description: 'The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.'
-permalink: 'techniques/command_and_control/peer_to_peer'
+theme: 'Internal recon'
+Id: 38
+description: 'A port scanner refers to a software application program that scans a server for open ports. It enables auditors and network administrators to examine network security while attackers and hackers use it to identify open ports for exploiting and/or running malicious services on a host computer or server.'
+permalink: 'techniques/internal_recon/port_scanning'
 ---
 {{ page. description }}
 
-Botnet masters stand to lose access to thousands or millions of infected computers if their control servers are shut down, so they’re looking into decentralized P2P communications, where botnet clients can relay commands to one another, as a resilience technique along with other methods like the use of domain name generation algorithms (DGAs), he said.
-
-Another benefit for attackers is that malicious P2P traffic is hard to detect and block at the network level by using traditional approaches that rely on lists of known IP addresses and hosts associated with C&C servers.
 
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Stuxnet' | split: ',' %}
+{% assign malwares = '' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
@@ -66,4 +63,5 @@ Another benefit for attackers is that malicious P2P traffic is hard to detect an
 
 ## Resources/Sources
 
-* [Malware increasingly uses peer-to-peer communications, researchers say](https://www.pcworld.com/article/2040836/malware-increasingly-uses-peertopeer-communications-researchers-say.html)
+* [Network Enumeration](https://www.techopedia.com/definition/25405/network-enumeration)
+

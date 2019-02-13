@@ -1,23 +1,19 @@
 ---
 layout: post
 enabled: false
-title: 'Peer-to-peer'
+title: 'Service enumeration'
 category: techniques
-theme: 'Command and control'
-Id: 36
-description: 'The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.'
-permalink: 'techniques/command_and_control/peer_to_peer'
+theme: 'Internal recon'
+Id: 37
+description: 'Network enumeration is a process that involves gathering information about a network such as the hosts, connected devices, along with usernames, group information and related data.'
+permalink: 'techniques/internal_recon/service_enumeration'
 ---
 {{ page. description }}
-
-Botnet masters stand to lose access to thousands or millions of infected computers if their control servers are shut down, so they’re looking into decentralized P2P communications, where botnet clients can relay commands to one another, as a resilience technique along with other methods like the use of domain name generation algorithms (DGAs), he said.
-
-Another benefit for attackers is that malicious P2P traffic is hard to detect and block at the network level by using traditional approaches that rely on lists of known IP addresses and hosts associated with C&C servers.
 
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Stuxnet' | split: ',' %}
+{% assign malwares = '' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
@@ -66,4 +62,4 @@ Another benefit for attackers is that malicious P2P traffic is hard to detect an
 
 ## Resources/Sources
 
-* [Malware increasingly uses peer-to-peer communications, researchers say](https://www.pcworld.com/article/2040836/malware-increasingly-uses-peertopeer-communications-researchers-say.html)
+* [Network Enumeration](https://www.techopedia.com/definition/25405/network-enumeration)
