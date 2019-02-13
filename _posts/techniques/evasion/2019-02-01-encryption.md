@@ -6,7 +6,7 @@ category: techniques
 theme: Evasion
 Id: 17
 description: 'Threat actors may utilize encryption to thwart security controls from reading/interpreting the data in transit.'
-permalink: /techniques/evasion/encryption
+permalink: /Network_based_MITRE_ATTACK_matrix/techniques/evasion/encryption
 ---
 {{ page. description }}
 

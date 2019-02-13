@@ -4,7 +4,7 @@ enabled: true
 title: Internal recon
 category: themes
 description: "The attacker explores the victim’s environment to gain a better understanding of the environment, the roles and responsibilities of key individuals, and to determine where an organization stores information of interest."
-permalink: 'themes/internal_recon'
+permalink: '/Network_based_MITRE_ATTACK_matrix/themes/internal_recon'
 ---
 {{ page.description }}
 
