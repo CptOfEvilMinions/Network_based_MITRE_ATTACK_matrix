@@ -12,7 +12,7 @@ category: techniques
 theme: Evasion
 Id: 15
 description: 'Threat actors may create custom protocols to thwart security controls from reading/interpreting the data in transit.'
-permalink: 'techniques/evasion/custom_protocol
+permalink: 'techniques/evasion/custom_protocol'
 ---
 {{ page. description }}
 

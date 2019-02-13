@@ -6,7 +6,7 @@ category: techniques
 theme: 'Lateral movement'
 Id: 24
 description: "In order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system."
-permalink: 'techniques/lateral_movement/ssh_hijacking
+permalink: 'techniques/lateral_movement/ssh_hijacking'
 ---
 {{ page. description }}
 This may occur through compromising the SSH agent itself or by having access to the agent's socket. If an adversary is able to obtain root access, then hijacking SSH sessions is likely trivial. [1] [2] [3] Compromising the SSH agent also provides access to intercept SSH credentials. [4]

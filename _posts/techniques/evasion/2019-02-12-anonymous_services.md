@@ -6,7 +6,7 @@ category: techniques
 theme: Evasion
 Id: 29
 description: 'Anonymous services like TOR can be used to mask the attackers identity and location'
-permalink: 'techniques/evasion/anonymous_services
+permalink: 'techniques/evasion/anonymous_services'
 ---
 {{ page. description }}
 
