@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>SQL Injection | Network based MITRE ATT&amp;CK matrix</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="SQL Injection" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SQL stands for structured query language; it’s a programming language used to communicate with databases. Many of the servers that store critical data for websites and services use SQL to manage the data in their databases. A SQL injection attack specifically targets this kind of server, using malicious code to get the server to divulge information it normally wouldn’t. This is especially problematic if the server stores private customer information from the website, such as credit card numbers, usernames and passwords (credentials), or other personally identifiable information, which are tempting and lucrative targets for an attacker." />
+<meta property="og:description" content="SQL stands for structured query language; it’s a programming language used to communicate with databases. Many of the servers that store critical data for websites and services use SQL to manage the data in their databases. A SQL injection attack specifically targets this kind of server, using malicious code to get the server to divulge information it normally wouldn’t. This is especially problematic if the server stores private customer information from the website, such as credit card numbers, usernames and passwords (credentials), or other personally identifiable information, which are tempting and lucrative targets for an attacker." />
+<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/sql_injection" />
+<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/sql_injection" />
+<meta property="og:site_name" content="Network based MITRE ATT&amp;CK matrix" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-07T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"SQL stands for structured query language; it’s a programming language used to communicate with databases. Many of the servers that store critical data for websites and services use SQL to manage the data in their databases. A SQL injection attack specifically targets this kind of server, using malicious code to get the server to divulge information it normally wouldn’t. This is especially problematic if the server stores private customer information from the website, such as credit card numbers, usernames and passwords (credentials), or other personally identifiable information, which are tempting and lucrative targets for an attacker.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/sql_injection","headline":"SQL Injection","dateModified":"2019-02-07T00:00:00-05:00","datePublished":"2019-02-07T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/sql_injection"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Network_based_MITRE_ATTACK_matrix/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" title="Network based MITRE ATT&CK matrix" /></head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Network_based_MITRE_ATTACK_matrix/">Network based MITRE ATT&amp;CK matrix</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/techniques/">Techniques</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/themes/">Themes</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/threat_actors/">Threat actors</a></div>
+      </nav></div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">SQL Injection</h1>
+    <p class="post-meta">Feb 7, 2019</p>
+  </header>
+
+  <article class="post-content">
+    <p><a href="https://www.rapid7.com/fundamentals/types-of-attacks/">SQL</a> stands for structured query language; it’s a programming language used to communicate with databases. Many of the servers that store critical data for websites and services use SQL to manage the data in their databases. A SQL injection attack specifically targets this kind of server, using malicious code to get the server to divulge information it normally wouldn’t. This is especially problematic if the server stores private customer information from the website, such as credit card numbers, usernames and passwords (credentials), or other personally identifiable information, which are tempting and lucrative targets for an attacker.</p>
+
+<h2 id="malwarethreat-actors">Malware/Threat actors</h2>
+
+<div class="threat-actor-table">
+<table>
+    <colgroup>
+        <col width="30%" />
+        <col width="70%" />
+    </colgroup>
+    <thead>
+        <tr class="header">
+            <th>Name</th>
+            <th>Type</th>
+            <th>Years</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+        
+            <td>Operation Cleaver</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+        
+            <td>HURRICANE PANDA</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </tbody>
+</table>
+</div>
+
+<h2 id="mitigations">Mitigations</h2>
+
+<p><code class="highlighter-rouge">&lt;Mitigation techniques&gt;</code></p>
+
+<h2 id="detections">Detections</h2>
+
+<ul>
+  <li>HTTP POST requests including common SQL injections like:<code class="highlighter-rouge">1' or '1' = '1, 1' or '1' = '1</code></li>
+</ul>
+
+<h2 id="toolkit">Toolkit</h2>
+
+<p><code class="highlighter-rouge">&lt;Toolkit instructions, if applicable&gt;</code></p>
+
+<h2 id="resourcessources">Resources/Sources</h2>
+
+<ul>
+  <li><a href="https://www.rapid7.com/fundamentals/types-of-attacks/">Common Types of Cybersecurity Attacks</a></li>
+</ul>
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/Network_based_MITRE_ATTACK_matrix/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Network based MITRE ATT&amp;CK matrix</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Network based MITRE ATT&amp;CK matrix</li><li><a class="u-email" href="mailto:bdb6115@rit.edu">bdb6115@rit.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/CptOfEvilMinions"><svg class="svg-icon"><use xlink:href="/Network_based_MITRE_ATTACK_matrix/assets/minima-social-icons.svg#github"></use></svg> <span class="username">CptOfEvilMinions</span></a></li><li><a href="https://www.twitter.com/CptOfEvilMinion"><svg class="svg-icon"><use xlink:href="/Network_based_MITRE_ATTACK_matrix/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">CptOfEvilMinion</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

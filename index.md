@@ -5,6 +5,17 @@
 layout: home
 ---
 
+{% for theme in site.categories.themes %}
+    {% if theme.enabled == true %}
+        {% for technique in site.categories.techniques %}
+            {% if technique.enabled == true and technique.theme == theme.title %}
+                {{ site.url }}{{ site.baseurl }}/{{ technique.permalink }} -->{{ technique.title }}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+
 <div class="flexbox">
 {% for theme in site.categories.themes %}
     {% if theme.enabled == true %}
@@ -13,7 +24,7 @@ layout: home
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
-                <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}</a>
+            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}</a>
             {% endif %}
         {% endfor %}
     </div>
