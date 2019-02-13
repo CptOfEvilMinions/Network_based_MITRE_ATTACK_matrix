@@ -5,17 +5,6 @@
 layout: home
 ---
 
-{% for theme in site.categories.themes %}
-    {% if theme.enabled == true %}
-        {% for technique in site.categories.techniques %}
-            {% if technique.enabled == true and technique.theme == theme.title %}
-                {{ site.url }}{{ site.baseurl }}/{{ technique.permalink }} -->{{ technique.title }}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
-
-
 <div class="flexbox">
 {% for theme in site.categories.themes %}
     {% if theme.enabled == true %}
