@@ -20,7 +20,7 @@ permalink: /themes/
         {%- if post.enabled == true %}
         <tr>
         {% assign tmp = threat_actor[1] -%}
-            <td markdown="span"><a href="{{ site.url }}/{{ post.permalink }}">{{ post.title }}</a></td>
+            <td markdown="span"><a href="{{ site.url }}{{ site.baseurl }}/{{ post.permalink }}">{{ post.title }}</a></td>
             <td markdown="span">{{ post.description }}</td>
         </tr>
         {%- endif -%}
