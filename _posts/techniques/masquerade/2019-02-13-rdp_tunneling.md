@@ -1,22 +1,19 @@
 ---
 layout: post
-enabled: true
-title: Encryption
+enabled: false
+title: 'Reverse RDP tunnel'
 category: techniques
-theme: Evasion
-Id: 17
-description: 'Threat actors may utilize encryption to thwart security controls from reading/interpreting the data in transit.'
-permalink: 'techniques/evasion/encryption'
+theme: masquerade
+Id: 35
+description: 'Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.'
+permalink: 'techniques/masquerade/rdp_reverse_tunneling'
 ---
 {{ page. description }}
 
-
-
-## Common types
-
 ## Malware/Threat actors
 
-{% assign malwares = 'ETSO,Wild Neutron,Energetic Bear,Jaku,Dukes' | split: ',' %}
+<!-- Threat actors table -->
+{% assign malwares = 'HURRICANE PANDA' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>

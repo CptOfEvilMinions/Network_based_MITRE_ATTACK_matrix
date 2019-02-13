@@ -208,7 +208,8 @@
         "description": "HURRICANE PANDA is an advanced China-based adversary actively targeting Internet services, engineering, and aerospace companies.",
         "years": "2014",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf"
         ]
     },
     "Dukes": {
@@ -217,6 +218,14 @@
         "years": "2008-2015",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.09.17.duke_russian/dukes_whitepaper.pdf"
+        ]
+    },
+    "Mirage": {
+        "type": "threat actor",
+        "description": "Since April 2012, the Mirage APT has targeted military and energy organizations in the Philippines, Taiwan, Canada, Brazil, Israel, Egypt, and Nigeria. The most distinct commonality between victims is their involvement in the contest for rights to survey natural gas and oil in the South China Sea. It is believed that the intent of the campaign was to exfiltrate confidential information, steal intellectual property, or to construct a botnet for further infections.",
+        "years": "2012-2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf"
         ]
     },
     "template": {
