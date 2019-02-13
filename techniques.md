@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Techniques
-permalink: /techniques
+permalink: /techniques/
 ---
 <table>
     <colgroup>
