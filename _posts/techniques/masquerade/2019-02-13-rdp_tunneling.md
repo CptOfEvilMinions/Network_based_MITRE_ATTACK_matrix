@@ -3,7 +3,7 @@ layout: post
 enabled: false
 title: 'Reverse RDP tunnel'
 category: techniques
-theme: masquerade
+theme: Masquerade
 Id: 35
 description: 'Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.'
 permalink: 'techniques/masquerade/rdp_reverse_tunneling'

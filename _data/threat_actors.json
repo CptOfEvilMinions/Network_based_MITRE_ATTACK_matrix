@@ -228,6 +228,14 @@
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf"
         ]
     },
+    "Stuxnet": {
+        "type": "malware",
+        "description": "The Stuxnet worm covertly attempts to identify and exploit equipment that controls a nation’s critical infrastructure. A successful attack by a software application such as the Stuxnet worm could result in manipulation of control system code to the point of inoperability or long-term damage. Should such an incident occur, recovery from the damage to the computer systems programmed to monitor and manage a facility and the physical equipment producing goods or services could be significantly delayed. Depending on the severity of the attack, the interconnected nature of the affected critical infrastructure facilities, and government preparation and response plans, entities and individuals relying on these facilities could be without life sustaining or comforting services for a long period of time. The resulting damage to the nation’s critical infrastructure could threaten many aspects of life, including the government’s ability to safeguard national security interests.",
+        "years": "2008",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf"
+        ]
+    },
     "template": {
         "type": "< threat actor/malware >",
         "description": "< Description of threat actor or malware >",
