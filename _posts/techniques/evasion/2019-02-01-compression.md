@@ -10,8 +10,6 @@ permalink: 'techniques/evasion/compression'
 ---
 {{ page. description }}
 
-`<description of technique>`
-
 ## Malware/Threat actors
 
 {% assign malwares = 'Nettraveler,Jaku' | split: ',' %}
