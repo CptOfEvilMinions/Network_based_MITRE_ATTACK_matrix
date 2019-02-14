@@ -1,6 +1,6 @@
 ---
 layout: post
-enabled: false
+enabled: true
 title: 'Malicious stager'
 category: techniques
 theme: 'Initial compromise'

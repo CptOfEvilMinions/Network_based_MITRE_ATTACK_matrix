@@ -1,6 +1,6 @@
 ---
 layout: post
-enabled: false
+enabled: true
 title: 'Trusted third party'
 category: techniques
 theme: 'Masquerade'
