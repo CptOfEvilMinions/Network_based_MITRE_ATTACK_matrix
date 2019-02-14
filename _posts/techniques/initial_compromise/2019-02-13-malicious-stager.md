@@ -1,24 +1,26 @@
 ---
 layout: post
-enabled: true
-title: Exploit
+enabled: false
+title: 'Malicious stager'
 category: techniques
 theme: 'Initial compromise'
-Id: 19
-description: "An [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized). Such behavior frequently includes things like gaining control of a computer system, allowing privilege escalation, or a denial-of-service (DoS or related DDoS) attack."
-permalink: 'techniques/initial_compromise/exploit'
+Id: 40
+description: 'A stager is a small payload of instructing the computer to pull down the next phase of malicious code.'
+permalink: 'techniques/initial_compromise/malicious_stager'
 ---
 {{ page. description }}
 
+Stagers may be malicious pieces of code inserted into documents to weaponize them. Detection of stagers can be challenging because the code is small and appears benign. However, the stager will instruct the computer to make an external call to download a malicious piece of code and execute. Applications such as Microsoft Word, Powershell, Adobe, and etc will may make an HTTP request with an application specific user-agent.
 
-## Types
+## Targeted applications
 
-* Zero-day
-* Public exploits
+* Microsoft Office
+* Adobe PDF reader
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Wicked Rose,Operation Cleaver,Epic Turla,HURRICANE PANDA,APT38' | split: ',' %}
+<!-- Threat actors table -->
+{% assign malwares = 'APT38' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
@@ -55,11 +57,12 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Mitigations
 
-`<Mitigation techniques>`
+* Microsoft Office has an option to only allow Microsoft signed macros to run.
+* Keep applications up to date
 
 ## Detections
 
-* Setting up a netwrk IDS/IPS
+Monitor the user-agent field in HTTP for applications like Microsoft Office, Powershell, and Adobe making external connections to unknown entities.
 
 ## Toolkit
 
@@ -67,5 +70,4 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Resources/Sources
 
-* [Exploit (computer security)](https://en.wikipedia.org/wiki/Exploit_(computer_security))
-* [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)
+* `[<Source name>](<Source link>)`

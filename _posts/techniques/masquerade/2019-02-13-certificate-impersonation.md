@@ -1,24 +1,19 @@
 ---
 layout: post
 enabled: true
-title: Exploit
+title: 'Certificate impersonation'
 category: techniques
-theme: 'Initial compromise'
-Id: 19
-description: "An [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized). Such behavior frequently includes things like gaining control of a computer system, allowing privilege escalation, or a denial-of-service (DoS or related DDoS) attack."
-permalink: 'techniques/initial_compromise/exploit'
+theme: 'Masquerade'
+Id: 41
+description: 'In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.'
+permalink: 'techniques/masquerade/certificate_impersonation'
 ---
 {{ page. description }}
 
-
-## Types
-
-* Zero-day
-* Public exploits
-
 ## Malware/Threat actors
 
-{% assign malwares = 'Wicked Rose,Operation Cleaver,Epic Turla,HURRICANE PANDA,APT38' | split: ',' %}
+<!-- Threat actors table -->
+{% assign malwares = 'Group-IB' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
@@ -59,7 +54,8 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Detections
 
-* Setting up a netwrk IDS/IPS
+* Monitor certificates being used in the environment and detect self-signed certs. Extract the `common name` field from the certificate and compare the base domain to Alexa's top million.
+* Compare the SHA1 hash of the certificate to Abuse.sh's SHA1 blacklist
 
 ## Toolkit
 
@@ -67,5 +63,4 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Resources/Sources
 
-* [Exploit (computer security)](https://en.wikipedia.org/wiki/Exploit_(computer_security))
-* [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)
+* [Abuse.ch SHA1 blacklist](https://sslbl.abuse.ch/blacklist/)

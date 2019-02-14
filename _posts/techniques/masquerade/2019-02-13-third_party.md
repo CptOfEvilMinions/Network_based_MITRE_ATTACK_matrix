@@ -1,24 +1,19 @@
 ---
 layout: post
-enabled: true
-title: Exploit
+enabled: false
+title: 'Trusted third party'
 category: techniques
-theme: 'Initial compromise'
-Id: 19
-description: "An [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized). Such behavior frequently includes things like gaining control of a computer system, allowing privilege escalation, or a denial-of-service (DoS or related DDoS) attack."
-permalink: 'techniques/initial_compromise/exploit'
+theme: 'Masquerade'
+Id: 39
+description: 'Attackers may compromise a subsidiary organization before moving into the parent organization.'
+permalink: 'techniques/masquerade/trusted_third_parth'
 ---
 {{ page. description }}
 
-
-## Types
-
-* Zero-day
-* Public exploits
-
 ## Malware/Threat actors
 
-{% assign malwares = 'Wicked Rose,Operation Cleaver,Epic Turla,HURRICANE PANDA,APT38' | split: ',' %}
+<!-- Threat actors table -->
+{% assign malwares = 'APT38' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
@@ -59,7 +54,7 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Detections
 
-* Setting up a netwrk IDS/IPS
+`<Detection techniques>`
 
 ## Toolkit
 
@@ -67,5 +62,4 @@ permalink: 'techniques/initial_compromise/exploit'
 
 ## Resources/Sources
 
-* [Exploit (computer security)](https://en.wikipedia.org/wiki/Exploit_(computer_security))
-* [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)
+* `[<Source name>](<Source link>)`

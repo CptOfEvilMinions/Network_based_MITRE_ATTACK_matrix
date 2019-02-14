@@ -252,6 +252,30 @@
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf"
         ]
     },
+    "BlackEnergy": {
+        "type": "malware",
+        "description": "On December 23, 2015, unknown cyber actors disrupted energy-grid operations for the first time ever,a causing blackouts for over 225,000 customers in Ukraine.1 Among the most striking features of this attack were the complexity of organization and planning, the discipline in execution, and capability in many of the discrete tasks exhibited by the threat actors. Over the course of nearly a year prior to the attack, these unknown actors clandestinely established persistent access to multiple industrial networks, identified targets, and ultimately carried out a complex set of actions, which not only disrupted electricity distribution in Ukraine, but also destroyed IT systems, flooded call centers, sowed confusion, and inhibited incident response. The attackers used a malware tool, BlackEnergy 3, designed to enable unauthorized network access, then used valid user credentials to move laterally across internal systems, and ultimately shut down electricity distribution using the utilities’ native control systems.",
+        "years": "2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.11.03.Ukraine_Cybersecurity_Threat_Briefing/ukraine-report-when-the-lights-went-out.pdf"
+        ]
+    },
+    "APT38": {
+        "type": "threat actor",
+        "description": "APT38 is a financially motivated North Korean regime-backed group responsible for conducting destructive attacks against financial institutions, as well as some of the world's largest cyber heists. Based on widely publicized operations alone, the group has attempted to steal more than $1.1 billion.",
+        "years": "2014-2018",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf"
+        ]
+    },
+    "Group-IB": {
+        "type": "< threat actor/malware >",
+        "description": "In total Group-IB has confirmed at least 20 companies as victims of the MoneyTaker group, 16 of which are located in the US. The vast majority of them are small community banks, where hackers attacked card processing systems. The average damage from each successful attack was 500,000 USD baseline.",
+        "years": "2016-2017",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.11.MoneyTaker/Group-IB_MoneyTaker_report.pdf"
+        ]
+    },
     "template": {
         "type": "< threat actor/malware >",
         "description": "< Description of threat actor or malware >",
