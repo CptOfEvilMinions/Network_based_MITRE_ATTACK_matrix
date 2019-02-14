@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Custom obfuscation | Network based MITRE ATT&amp;CK matrix</title>
+<title>Malicious stager | Network based MITRE ATT&amp;CK matrix</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Custom obfuscation" />
+<meta property="og:title" content="Malicious stager" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders." />
-<meta property="og:description" content="Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders." />
-<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation" />
-<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation" />
+<meta name="description" content="A stager is a small payload of instructing the computer to pull down the next phase of malicious code." />
+<meta property="og:description" content="A stager is a small payload of instructing the computer to pull down the next phase of malicious code." />
+<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager" />
+<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager" />
 <meta property="og:site_name" content="Network based MITRE ATT&amp;CK matrix" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-02-01T00:00:00-05:00" />
+<meta property="article:published_time" content="2019-02-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation","headline":"Custom obfuscation","dateModified":"2019-02-01T00:00:00-05:00","datePublished":"2019-02-01T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation"},"@context":"http://schema.org"}</script>
+{"description":"A stager is a small payload of instructing the computer to pull down the next phase of malicious code.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager","headline":"Malicious stager","dateModified":"2019-02-13T00:00:00-05:00","datePublished":"2019-02-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Network_based_MITRE_ATTACK_matrix/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" title="Network based MITRE ATT&CK matrix" /></head>
 
@@ -46,22 +46,25 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Custom obfuscation</h1>
-    <p class="post-meta">Feb 1, 2019</p>
+    <h1 class="post-title">Malicious stager</h1>
+    <p class="post-meta">Feb 13, 2019</p>
   </header>
 
   <article class="post-content">
-    <p>Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.</p>
+    <p>A stager is a small payload of instructing the computer to pull down the next phase of malicious code.</p>
 
-<h2 id="common-types">Common types</h2>
+<p>Stagers may be malicious pieces of code inserted into documents to weaponize them. Detection of stagers can be challenging because the code is small and appears benign. However, the stager will instruct the computer to make an external call to download a malicious piece of code and execute. Applications such as Microsoft Word, Powershell, Adobe, and etc will may make an HTTP request with an application specific user-agent.</p>
+
+<h2 id="targeted-applications">Targeted applications</h2>
 
 <ul>
-  <li>encryption</li>
-  <li>obfuscation</li>
-  <li>compression</li>
+  <li>Microsoft Office</li>
+  <li>Adobe PDF reader</li>
 </ul>
 
 <h2 id="malwarethreat-actors">Malware/Threat actors</h2>
+
+<!-- Threat actors table -->
 
 <div class="threat-actor-table">
 <table>
@@ -81,26 +84,10 @@
         
         <tr>
         
-            <td>TeamSpy</td>
+            <td>APT38</td>
             <td>threat actor</td>
-            <td>2008-2013</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/2013.03.20.TeamSpy_Crew/theteamspystory_final_t2.pdf">theteamspystory_final_t2.pdf</a><br /></td>
-        </tr>
-        
-        <tr>
-        
-            <td>Wild Neutron</td>
-            <td>threat actor</td>
-            <td>2013-2015</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.08.Wild_Neutron/WildNeutron_Economic_espionage.pdf">WildNeutron_Economic_espionage.pdf</a><br /></td>
-        </tr>
-        
-        <tr>
-        
-            <td>Lazarus Group</td>
-            <td>threat actor</td>
-            <td>2011-2014</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf">Operation-Blockbuster-Report.pdf</a><br /></td>
+            <td>2014-2018</td>
+            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf">rpt-apt38-2018-web_v4.pdf</a><br /></td>
         </tr>
         
     </tbody>
@@ -109,11 +96,14 @@
 
 <h2 id="mitigations">Mitigations</h2>
 
-<p><code class="highlighter-rouge">&lt;Mitigation techniques&gt;</code></p>
+<ul>
+  <li>Microsoft Office has an option to only allow Microsoft signed macros to run.</li>
+  <li>Keep applications up to date</li>
+</ul>
 
 <h2 id="detections">Detections</h2>
 
-<p>During the encryption handshake in protocols like TLS, SSL, and SSH look for encryption suites and ciphers that are new to the enviornment.</p>
+<p>Monitor the user-agent field in HTTP for applications like Microsoft Office, Powershell, and Adobe making external connections to unknown entities.</p>
 
 <h2 id="toolkit">Toolkit</h2>
 
@@ -122,7 +112,7 @@
 <h2 id="resourcessources">Resources/Sources</h2>
 
 <ul>
-  <li><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections">Github - CyberMonitor/APT_CyberCriminal_Campagin_Collections</a></li>
+  <li><code class="highlighter-rouge">[&lt;Source name&gt;](&lt;Source link&gt;)</code></li>
 </ul>
 
   </article>

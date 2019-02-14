@@ -14,6 +14,7 @@ permalink: 'techniques/actions_on_objective/defacement'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
+{% assign threat_actors = site.data.threat_actors %}
 {% assign malwares = 'Operation Cleaver' | split: ',' %}
 
 <div class="threat-actor-table">

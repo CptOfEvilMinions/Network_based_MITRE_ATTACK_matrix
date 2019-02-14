@@ -14,6 +14,8 @@ permalink: 'techniques/evasion/compression'
 
 {% assign malwares = 'Nettraveler,Jaku' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

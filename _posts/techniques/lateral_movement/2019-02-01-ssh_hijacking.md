@@ -19,6 +19,8 @@ SSH Hijacking differs from use of Remote Services because it injects into an exi
 
 {% assign malwares = '' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

@@ -16,6 +16,8 @@ permalink: 'techniques/lateral_movement/remote_desktop'
 
 {% assign malwares = 'Gh0st Rat,HURRICANE PANDA' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

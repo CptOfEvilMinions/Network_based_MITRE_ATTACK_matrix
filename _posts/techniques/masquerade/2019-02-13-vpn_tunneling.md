@@ -15,6 +15,8 @@ permalink: 'techniques/masquerade/vpn_tunneling'
 <!-- Threat actors table -->
 {% assign malwares = 'HURRICANE PANDA' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

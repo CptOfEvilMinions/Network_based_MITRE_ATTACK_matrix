@@ -23,6 +23,8 @@ permalink: 'techniques/delivery/wateringhole'
 
 {% assign malwares = 'Operation Dust Storm,ZooPark,Operation Cleaver,Epic Turla,Energetic Bear,APT38' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

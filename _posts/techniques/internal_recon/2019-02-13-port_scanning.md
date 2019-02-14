@@ -16,6 +16,8 @@ permalink: 'techniques/internal_recon/port_scanning'
 <!-- Threat actors table -->
 {% assign malwares = 'Naikon' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

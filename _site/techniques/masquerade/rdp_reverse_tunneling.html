@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Custom obfuscation | Network based MITRE ATT&amp;CK matrix</title>
+<title>Reverse RDP tunnel | Network based MITRE ATT&amp;CK matrix</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Custom obfuscation" />
+<meta property="og:title" content="Reverse RDP tunnel" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders." />
-<meta property="og:description" content="Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders." />
-<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation" />
-<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation" />
+<meta name="description" content="Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host." />
+<meta property="og:description" content="Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host." />
+<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling" />
+<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling" />
 <meta property="og:site_name" content="Network based MITRE ATT&amp;CK matrix" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-02-01T00:00:00-05:00" />
+<meta property="article:published_time" content="2019-02-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation","headline":"Custom obfuscation","dateModified":"2019-02-01T00:00:00-05:00","datePublished":"2019-02-01T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation"},"@context":"http://schema.org"}</script>
+{"description":"Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling","headline":"Reverse RDP tunnel","dateModified":"2019-02-13T00:00:00-05:00","datePublished":"2019-02-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Network_based_MITRE_ATTACK_matrix/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" title="Network based MITRE ATT&CK matrix" /></head>
 
@@ -46,22 +46,16 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Custom obfuscation</h1>
-    <p class="post-meta">Feb 1, 2019</p>
+    <h1 class="post-title">Reverse RDP tunnel</h1>
+    <p class="post-meta">Feb 13, 2019</p>
   </header>
 
   <article class="post-content">
-    <p>Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.</p>
-
-<h2 id="common-types">Common types</h2>
-
-<ul>
-  <li>encryption</li>
-  <li>obfuscation</li>
-  <li>compression</li>
-</ul>
+    <p>Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.</p>
 
 <h2 id="malwarethreat-actors">Malware/Threat actors</h2>
+
+<!-- Threat actors table -->
 
 <div class="threat-actor-table">
 <table>
@@ -81,26 +75,10 @@
         
         <tr>
         
-            <td>TeamSpy</td>
+            <td>HURRICANE PANDA</td>
             <td>threat actor</td>
-            <td>2008-2013</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/2013.03.20.TeamSpy_Crew/theteamspystory_final_t2.pdf">theteamspystory_final_t2.pdf</a><br /></td>
-        </tr>
-        
-        <tr>
-        
-            <td>Wild Neutron</td>
-            <td>threat actor</td>
-            <td>2013-2015</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.08.Wild_Neutron/WildNeutron_Economic_espionage.pdf">WildNeutron_Economic_espionage.pdf</a><br /></td>
-        </tr>
-        
-        <tr>
-        
-            <td>Lazarus Group</td>
-            <td>threat actor</td>
-            <td>2011-2014</td>
-            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf">Operation-Blockbuster-Report.pdf</a><br /></td>
+            <td>2014</td>
+            <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf">GlobalThreatIntelReport.pdf</a><br /><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf">ICIT-Brief-China-Espionage-Dynasty.pdf</a><br /></td>
         </tr>
         
     </tbody>
@@ -113,7 +91,7 @@
 
 <h2 id="detections">Detections</h2>
 
-<p>During the encryption handshake in protocols like TLS, SSL, and SSH look for encryption suites and ciphers that are new to the enviornment.</p>
+<p><code class="highlighter-rouge">&lt;Detection techniques&gt;</code></p>
 
 <h2 id="toolkit">Toolkit</h2>
 
@@ -122,7 +100,7 @@
 <h2 id="resourcessources">Resources/Sources</h2>
 
 <ul>
-  <li><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections">Github - CyberMonitor/APT_CyberCriminal_Campagin_Collections</a></li>
+  <li><code class="highlighter-rouge">[&lt;Source name&gt;](&lt;Source link&gt;)</code></li>
 </ul>
 
   </article>

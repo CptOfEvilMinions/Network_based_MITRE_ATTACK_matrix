@@ -1,114 +1,552 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/" rel="alternate" type="text/html" /><updated>2019-02-13T12:57:07-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml</id><title type="html">Network based MITRE ATT&amp;amp;CK matrix</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html"></title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/%3Ctheme_name%3E" rel="alternate" type="text/html" title="&lt;theme name&gt;" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/template</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/%3Ctheme_name%3E">&lt;description&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/" rel="alternate" type="text/html" /><updated>2019-02-14T14:35:27-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml</id><title type="html">Network based MITRE ATT&amp;amp;CK matrix</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Service enumeration</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/service_enumeration" rel="alternate" type="text/html" title="Service enumeration" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/service_enumeration</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/service_enumeration">&lt;p&gt;Network enumeration is a process that involves gathering information about a network such as the hosts, connected devices, along with usernames, group information and related data.&lt;/p&gt;
 
-## Resources/Sources
-&lt;/description&gt;</content><author><name></name></author><category term="themes" /><summary type="html"></summary></entry><entry><title type="html">Masquerade</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/masquerade" rel="alternate" type="text/html" title="Masquerade" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/masquerade</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/masquerade">&lt;p&gt;&lt;a href=&quot;https://searchsecurity.techtarget.com/definition/masquerade&quot;&gt;Masquerade&lt;/a&gt; is a disguise. In terms of communications security issues, a masquerade is a type of attack where the attacker pretends to be an authorized user of a system in order to gain access to it or to gain greater privileges than they are authorized for.&lt;/p&gt;
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
 
-&lt;p&gt;A masquerade may be attempted through the use of stolen logon IDs and passwords, through finding security gaps in programs, or through bypassing the authentication mechanism. The attempt may come from within an organization, for example, from an employee; or from an outside user through some connection to the public network. Weak authentication provides one of the easiest points of entry for a masquerade, since it makes it much easier for an attacker to gain access.&lt;/p&gt;
+&lt;!-- Threat actors table --&gt;
 
-&lt;p&gt;Once the attacker has been authorized for entry, they may have full access to the organization’s critical data, and (depending on the privilege level they pretend to have) may be able to modify and delete software and data, and make changes to network configuration and routing information.&lt;/p&gt;
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Naikon&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2013-2015&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.05.21.Naikon_APT/TheNaikonAPT-MsnMM1.pdf&quot;&gt;TheNaikonAPT-MsnMM1.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;categories&quot;&gt;Categories&lt;/h2&gt;
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Spoofing&lt;/li&gt;
-  &lt;li&gt;Hijacking&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.techopedia.com/definition/25405/network-enumeration&quot;&gt;Network Enumeration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Network enumeration is a process that involves gathering information about a network such as the hosts, connected devices, along with usernames, group information and related data.</summary></entry><entry><title type="html">Malicious stager</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager" rel="alternate" type="text/html" title="Malicious stager" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious-stager</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager">&lt;p&gt;A stager is a small payload of instructing the computer to pull down the next phase of malicious code.&lt;/p&gt;
+
+&lt;p&gt;Stagers may be malicious pieces of code inserted into documents to weaponize them. Detection of stagers can be challenging because the code is small and appears benign. However, the stager will instruct the computer to make an external call to download a malicious piece of code and execute. Applications such as Microsoft Word, Powershell, Adobe, and etc will may make an HTTP request with an application specific user-agent.&lt;/p&gt;
+
+&lt;h2 id=&quot;targeted-applications&quot;&gt;Targeted applications&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Microsoft Office&lt;/li&gt;
+  &lt;li&gt;Adobe PDF reader&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;APT38&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2014-2018&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf&quot;&gt;rpt-apt38-2018-web_v4.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://searchsecurity.techtarget.com/definition/masquerade&quot;&gt;SearchSecurity - Masquerade&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">Masquerade is a disguise. In terms of communications security issues, a masquerade is a type of attack where the attacker pretends to be an authorized user of a system in order to gain access to it or to gain greater privileges than they are authorized for.</summary></entry><entry><title type="html">Lateral movement</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/lateral_movement" rel="alternate" type="text/html" title="Lateral movement" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/lateral_movement</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/lateral_movement">&lt;p&gt;The attacker uses his access to move from system to system within the compromised environment. Common lateral movement methods include accessing network shares, using the Windows Task Scheduler to execute programs, using remote access tools such as PsExec, or using remote desktop clients such as Remote Desktop Protocol (RDP), DameWare, or Virtual Network Computing (VNC) to interact with target systems using a graphical user interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker uses his access to move from system to system within the compromised environment. Common lateral movement methods include accessing network shares, using the Windows Task Scheduler to execute programs, using remote access tools such as PsExec, or using remote desktop clients such as Remote Desktop Protocol (RDP), DameWare, or Virtual Network Computing (VNC) to interact with target systems using a graphical user interface.</summary></entry><entry><title type="html">Internal recon</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/internal_recon" rel="alternate" type="text/html" title="Internal recon" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/internal_recon</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/internal_recon">&lt;p&gt;The attacker explores the victim’s environment to gain a better understanding of the environment, the roles and responsibilities of key individuals, and to determine where an organization stores information of interest.&lt;/p&gt;
-
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker explores the victim’s environment to gain a better understanding of the environment, the roles and responsibilities of key individuals, and to determine where an organization stores information of interest.</summary></entry><entry><title type="html">Initial compromise</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/initial_compromise" rel="alternate" type="text/html" title="Initial compromise" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/initial_compromise</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/initial_compromise">&lt;p&gt;The attacker successfully executes malicious code on one or more systems. This most likely occurs through social engineering (most often spear phishing), by exploiting a vulnerability on an Internet-facing system, or by any other means necessary.&lt;/p&gt;
-
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/&quot;&gt;Attack Life Cycle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The attacker successfully executes malicious code on one or more systems. This most likely occurs through social engineering (most often spear phishing), by exploiting a vulnerability on an Internet-facing system, or by any other means necessary.</summary></entry><entry><title type="html">Evasion</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/evasion" rel="alternate" type="text/html" title="Evasion" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/evasion</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/evasion">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Evasion_(network_security)&quot;&gt;Evasion&lt;/a&gt; is bypassing an information security device in order to deliver an exploit, attack, or other form of malware to a target network or system, without detection. Evasions are typically used to counter network-based intrusion detection and prevention systems (IPS, IDS) but can also be used to by-pass firewalls and defeat malware analysis. A further target of evasions can be to crash a network security device, rendering it in-effective to subsequent targeted attacks.&lt;/p&gt;
-
-&lt;h2 id=&quot;categories&quot;&gt;Categories&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Proctocol vulnerabilities&lt;/li&gt;
-  &lt;li&gt;Covert channels&lt;/li&gt;
-  &lt;li&gt;Anti-forensics&lt;/li&gt;
+  &lt;li&gt;Microsoft Office has an option to only allow Microsoft signed macros to run.&lt;/li&gt;
+  &lt;li&gt;Keep applications up to date&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Encoding&lt;/li&gt;
-  &lt;li&gt;Encryption&lt;/li&gt;
-  &lt;li&gt;Network tunneling&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Monitor the user-agent field in HTTP for applications like Microsoft Office, Powershell, and Adobe making external connections to unknown entities.&lt;/p&gt;
 
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Evasion_(network_security)&quot;&gt;WikiPedia - Evasion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">Evasion is bypassing an information security device in order to deliver an exploit, attack, or other form of malware to a target network or system, without detection. Evasions are typically used to counter network-based intrusion detection and prevention systems (IPS, IDS) but can also be used to by-pass firewalls and defeat malware analysis. A further target of evasions can be to crash a network security device, rendering it in-effective to subsequent targeted attacks.</summary></entry><entry><title type="html">DOS</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/dos" rel="alternate" type="text/html" title="DOS" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/dos</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/dos">&lt;p&gt;A &lt;a href=&quot;https://www.techopedia.com/definition/24841/denial-of-service-attack-dos&quot;&gt;denial-of-service (DoS)&lt;/a&gt; is any type of attack where the attackers (hackers) attempt to prevent legitimate users from accessing the service.&lt;/p&gt;
-
-&lt;p&gt;In a DoS attack, the attacker usually sends excessive messages asking the network or server to authenticate requests that have invalid return addresses. The network or server will not be able to find the return address of the attacker when sending the authentication approval, causing the server to wait before closing the connection. When the server closes the connection, the attacker sends more authentication messages with invalid return addresses. Hence, the process of authentication and server wait will begin again, keeping the network or server busy.&lt;/p&gt;
-
-&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SYN floods&lt;/li&gt;
-  &lt;li&gt;UDP amplification attacks&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.techopedia.com/definition/24841/denial-of-service-attack-dos&quot;&gt;denial-of-service&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">A denial-of-service (DoS) is any type of attack where the attackers (hackers) attempt to prevent legitimate users from accessing the service.</summary></entry><entry><title type="html">Delivery</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/delivery" rel="alternate" type="text/html" title="Delivery" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/delivery</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/delivery">&lt;p&gt;The mechanism used to distribute the malicious code to the target.&lt;/p&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[&amp;lt;Source name&amp;gt;](&amp;lt;Source link&amp;gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">A stager is a small payload of instructing the computer to pull down the next phase of malicious code.</summary></entry><entry><title type="html">Peer-to-peer</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer" rel="alternate" type="text/html" title="Peer-to-peer" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/p2p</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer">&lt;p&gt;The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.&lt;/p&gt;
 
-&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+&lt;p&gt;Botnet masters stand to lose access to thousands or millions of infected computers if their control servers are shut down, so they’re looking into decentralized P2P communications, where botnet clients can relay commands to one another, as a resilience technique along with other methods like the use of domain name generation algorithms (DGAs), he said.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Phishing&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Another benefit for attackers is that malicious P2P traffic is hard to detect and block at the network level by using traditional approaches that rely on lists of known IP addresses and hosts associated with C&amp;amp;C servers.&lt;/p&gt;
 
-&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The mechanism used to distribute the malicious code to the target.</summary></entry><entry><title type="html">Command and control</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/command_and_control" rel="alternate" type="text/html" title="Command and control" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/command_and_control</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/command_and_control">&lt;p&gt;A &lt;a href=&quot;https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server&quot;&gt;Command and Control [C&amp;amp;C] Server&lt;/a&gt; is a computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network.&lt;/p&gt;
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
 
-&lt;h2 id=&quot;well-known-techneqiues&quot;&gt;Well known techneqiues&lt;/h2&gt;
+&lt;!-- Threat actors table --&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;HTTP&lt;/li&gt;
-  &lt;li&gt;DNS&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Stuxnet&lt;/td&gt;
+            &lt;td&gt;malware&lt;/td&gt;
+            &lt;td&gt;2008&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf&quot;&gt;R41524.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Lazarus Group&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2011-2014&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf&quot;&gt;Operation-Blockbuster-Report.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server&quot;&gt;Command and Control [C&amp;amp;C] Server&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">A Command and Control [C&amp;amp;C] Server is a computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network.</summary></entry><entry><title type="html">Actions on objective</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/actions_on_objective" rel="alternate" type="text/html" title="Actions on objective" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/actions_on_objective</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/themes/actions_on_objective">&lt;p&gt;The &lt;a href=&quot;https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf&quot;&gt;actions and objectives&lt;/a&gt; of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.&lt;/p&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pcworld.com/article/2040836/malware-increasingly-uses-peertopeer-communications-researchers-say.html&quot;&gt;Malware increasingly uses peer-to-peer communications, researchers say&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.</summary></entry><entry><title type="html">VPN tunneling</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/vpn_tunneling" rel="alternate" type="text/html" title="VPN tunneling" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/vpn_tunneling</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/vpn_tunneling">&lt;p&gt;Adversary reduces their footprint by using credentials to directly connect to the network and masquerade as VPN users instead of relying on the RAT.&lt;/p&gt;
 
-&lt;p&gt;In the case of data exfiltration, the APT may be interested in organizational proprietary data such as engineering designs or employee and customer Personally Identifiable Information (PII). In the case of a denial of service, like the Ukrainian power outage of December 2015, the APT may disable a key component of the organization’s infrastructure to temporarily disrupt services.&lt;/p&gt;
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
 
-&lt;p&gt;Finally, in the case of destruction, an APT like the Stuxnet worm may seek to operate industrial control systems outside of their manufacturer specifications, resulting in catastrophic failure.&lt;/p&gt;
+&lt;!-- Threat actors table --&gt;
 
-&lt;h2 id=&quot;types&quot;&gt;Types&lt;/h2&gt;
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;HURRICANE PANDA&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2014&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf&quot;&gt;GlobalThreatIntelReport.pdf&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf&quot;&gt;ICIT-Brief-China-Espionage-Dynasty.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Exfil&lt;/li&gt;
-  &lt;li&gt;Destruction&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf&quot;&gt;The Cyber Kill Chain Explained&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="themes" /><summary type="html">The actions and objectives of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.</summary></entry></feed>
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[&amp;lt;Source name&amp;gt;](&amp;lt;Source link&amp;gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Adversary reduces their footprint by using credentials to directly connect to the network and masquerade as VPN users instead of relying on the RAT.</summary></entry><entry><title type="html">Trusted third party</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth" rel="alternate" type="text/html" title="Trusted third party" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/third_party</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth">&lt;p&gt;Attackers may compromise a subsidiary organization before moving into the parent organization.&lt;/p&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;APT38&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2014-2018&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf&quot;&gt;rpt-apt38-2018-web_v4.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[&amp;lt;Source name&amp;gt;](&amp;lt;Source link&amp;gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Attackers may compromise a subsidiary organization before moving into the parent organization.</summary></entry><entry><title type="html">Scanning services</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/scanning_services" rel="alternate" type="text/html" title="Scanning services" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/scanning_services</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/scanning_services">&lt;p&gt;Platforms like Shodan hunt for internet facing devices to perform scanning and enumeration.&lt;/p&gt;
+
+&lt;p&gt;These scanning services provide mechanisms to search theirs databases for a particular attributes. These attributes can be a domain/IP range to get a list of publicly facing services for a particular target. Attacks can search for a particular service version which may be vulnerable.&lt;/p&gt;
+
+&lt;h2 id=&quot;common-platforms&quot;&gt;Common platforms&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shodan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;BlackEnergy&lt;/td&gt;
+            &lt;td&gt;malware&lt;/td&gt;
+            &lt;td&gt;2015&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.11.03.Ukraine_Cybersecurity_Threat_Briefing/ukraine-report-when-the-lights-went-out.pdf&quot;&gt;ukraine-report-when-the-lights-went-out.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;One mitigation is to block the IP addresses of these scanners. Shodan provides a &lt;a href=&quot;https://wiki.ipfire.org/configuration/firewall/blockshodan&quot;&gt;public list&lt;/a&gt; of these IP addresses.&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.ipfire.org/configuration/firewall/blockshodan&quot;&gt;How to block Shodan scanners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Platforms like Shodan hunt for internet facing devices to perform scanning and enumeration.</summary></entry><entry><title type="html">Reverse RDP tunnel</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling" rel="alternate" type="text/html" title="Reverse RDP tunnel" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_tunneling</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling">&lt;p&gt;Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.&lt;/p&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;HURRICANE PANDA&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2014&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf&quot;&gt;GlobalThreatIntelReport.pdf&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf&quot;&gt;ICIT-Brief-China-Espionage-Dynasty.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[&amp;lt;Source name&amp;gt;](&amp;lt;Source link&amp;gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.</summary></entry><entry><title type="html">Certificate impersonation</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/certificate_impersonation" rel="alternate" type="text/html" title="Certificate impersonation" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/certificate-impersonation</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/certificate_impersonation">&lt;p&gt;In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.&lt;/p&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Group-IB&lt;/td&gt;
+            &lt;td&gt;&amp;lt; threat actor/malware &amp;gt;&lt;/td&gt;
+            &lt;td&gt;2016-2017&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.11.MoneyTaker/Group-IB_MoneyTaker_report.pdf&quot;&gt;Group-IB_MoneyTaker_report.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Monitor certificates being used in the environment and detect self-signed certs. Extract the &lt;code class=&quot;highlighter-rouge&quot;&gt;common name&lt;/code&gt; field from the certificate and compare the base domain to Alexa’s top million.&lt;/li&gt;
+  &lt;li&gt;Compare the SHA1 hash of the certificate to Abuse.sh’s SHA1 blacklist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sslbl.abuse.ch/blacklist/&quot;&gt;Abuse.ch SHA1 blacklist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.</summary></entry><entry><title type="html">Port scanning</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/port_scanning" rel="alternate" type="text/html" title="Port scanning" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/port_scanning</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/port_scanning">&lt;p&gt;A port scanner refers to a software application program that scans a server for open ports. It enables auditors and network administrators to examine network security while attackers and hackers use it to identify open ports for exploiting and/or running malicious services on a host computer or server.&lt;/p&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Naikon&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2013-2015&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.05.21.Naikon_APT/TheNaikonAPT-MsnMM1.pdf&quot;&gt;TheNaikonAPT-MsnMM1.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Detection techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.techopedia.com/definition/25405/network-enumeration&quot;&gt;Network Enumeration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">A port scanner refers to a software application program that scans a server for open ports. It enables auditors and network administrators to examine network security while attackers and hackers use it to identify open ports for exploiting and/or running malicious services on a host computer or server.</summary></entry><entry><title type="html">Anonymous services</title><link href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/anonymous_services" rel="alternate" type="text/html" title="Anonymous services" /><published>2019-02-12T00:00:00-05:00</published><updated>2019-02-12T00:00:00-05:00</updated><id>http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/anonymous_services</id><content type="html" xml:base="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/anonymous_services">&lt;p&gt;Anonymous services like TOR can be used to mask the attackers identity and location&lt;/p&gt;
+
+&lt;h2 id=&quot;malwarethreat-actors&quot;&gt;Malware/Threat actors&lt;/h2&gt;
+
+&lt;!-- Threat actors table --&gt;
+
+&lt;div class=&quot;threat-actor-table&quot;&gt;
+&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col width=&quot;30%&quot; /&gt;
+        &lt;col width=&quot;70%&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr class=&quot;header&quot;&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Type&lt;/th&gt;
+            &lt;th&gt;Years&lt;/th&gt;
+            &lt;th&gt;Source&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;GRIZZLY STEPPE&lt;/td&gt;
+            &lt;td&gt;threat actor&lt;/td&gt;
+            &lt;td&gt;2015-2018&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://www.us-cert.gov/GRIZZLY-STEPPE-Russian-Malicious-Cyber-Activity&quot;&gt;GRIZZLY-STEPPE-Russian-Malicious-Cyber-Activity&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.02.10.Enhanced_Analysis_of_GRIZZLY_STEPPE/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf&quot;&gt;AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+        &lt;tr&gt;
+        
+            &lt;td&gt;Dukes&lt;/td&gt;
+            &lt;td&gt;ThreatActor&lt;/td&gt;
+            &lt;td&gt;2008-2015&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.09.17.duke_russian/dukes_whitepaper.pdf&quot;&gt;dukes_whitepaper.pdf&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;services&quot;&gt;Services&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TOR&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mitigations&quot;&gt;Mitigations&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Mitigation techniques&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detections&quot;&gt;Detections&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TOR provides a public &lt;a href=&quot;https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1&quot;&gt;list of exit nodes&lt;/a&gt; which includes IP addresses. This can be used to see if any computers in your environment are communicating with TOR&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;toolkit&quot;&gt;Toolkit&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Toolkit instructions, if applicable&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resourcessources&quot;&gt;Resources/Sources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[&amp;lt;Source name&amp;gt;](&amp;lt;Source link&amp;gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="techniques" /><summary type="html">Anonymous services like TOR can be used to mask the attackers identity and location</summary></entry></feed>

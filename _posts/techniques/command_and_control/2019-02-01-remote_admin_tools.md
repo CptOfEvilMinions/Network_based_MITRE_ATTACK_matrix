@@ -14,6 +14,8 @@ permalink: 'techniques/commmand_and_control/remote_admin_tools'
 
 {% assign malwares = 'TeamSpy' | split: ',' %}
 
+{% assign threat_actors = site.data.threat_actors %}
+
 <div class="threat-actor-table">
 <table>
     <colgroup>

@@ -3,7 +3,7 @@ layout: post
 enabled: true
 title: 'Malicious stager'
 category: techniques
-theme: 'Initial compromise'
+theme: "Initial compromise"
 Id: 40
 description: 'A stager is a small payload of instructing the computer to pull down the next phase of malicious code.'
 permalink: 'techniques/initial_compromise/malicious_stager'
@@ -21,6 +21,8 @@ Stagers may be malicious pieces of code inserted into documents to weaponize the
 
 <!-- Threat actors table -->
 {% assign malwares = 'APT38' | split: ',' %}
+
+{% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">
 <table>
