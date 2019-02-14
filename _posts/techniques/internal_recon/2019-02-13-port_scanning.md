@@ -14,7 +14,7 @@ permalink: 'techniques/internal_recon/port_scanning'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = '' | split: ',' %}
+{% assign malwares = 'Naikon' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>

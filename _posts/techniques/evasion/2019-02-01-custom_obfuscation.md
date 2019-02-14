@@ -5,7 +5,7 @@ title: 'Custom obfuscation'
 category: techniques
 theme: Evasion
 Id: 14
-description: 'Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechaniss to thwart defenders.'
+description: 'Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.'
 permalink: 'techniques/evasion/custom_obfuscation'
 ---
 {{ page. description }}
@@ -20,7 +20,7 @@ permalink: 'techniques/evasion/custom_obfuscation'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'TeamSpy,Wild Neutron' | split: ',' %}
+{% assign malwares = 'TeamSpy,Wild Neutron,Lazarus Group' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>

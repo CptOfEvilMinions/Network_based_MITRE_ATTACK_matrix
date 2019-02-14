@@ -236,6 +236,22 @@
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf"
         ]
     },
+    "Naikon": {
+        "type": "threat actor",
+        "description": "The Naikon APT appears to have used specific toolsets against organizations within a designated country, as though each campaign was focused on one country. There is sometimes crossover between campaigns in several ways: the backdoors they deliver, the infiltration techniques, and the overall infrastructure. Backdoor functionality can also cross campaigns and tools. For example, sometimes we see an “inject” variant dropping a “sys10” backdoor. Or a naikon backdoor dropping a rarstone backdoor. Again, this particular actor is responsible for the MsnMM and Naikon campaigns",
+        "years": "2013-2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.05.21.Naikon_APT/TheNaikonAPT-MsnMM1.pdf"
+        ]
+    },
+    "Lazarus Group": {
+        "type": "threat actor",
+        "description": "The Lazarus Group appears to have resources that allow for development of custom malware tools for extensive, targeted, and coordinated attacks, including long periods of reconnaissance. The Lazarus Group has also displayed the technical capability and will to perform destructive attacks against targets.",
+        "years": "2011-2014",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf"
+        ]
+    },
     "template": {
         "type": "< threat actor/malware >",
         "description": "< Description of threat actor or malware >",

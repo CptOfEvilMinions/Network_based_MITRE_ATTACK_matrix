@@ -13,7 +13,7 @@ permalink: 'techniques/internal_recon/service_enumeration'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = '' | split: ',' %}
+{% assign malwares = 'Naikon' | split: ',' %}
 
 <div class="threat-actor-table">
 <table>
