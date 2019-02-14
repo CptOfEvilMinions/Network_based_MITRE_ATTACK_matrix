@@ -26,7 +26,6 @@ permalink: 'techniques/evasion/public_services'
 ## Malware/Threat actors
 
 {% assign malwares = 'Trojan.APT.Seinup,APT37,Dukes' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

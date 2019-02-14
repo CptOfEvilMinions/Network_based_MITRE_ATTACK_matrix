@@ -20,7 +20,6 @@ These scanning services provide mechanisms to search theirs databases for a part
 
 <!-- Threat actors table -->
 {% assign malwares = 'BlackEnergy' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

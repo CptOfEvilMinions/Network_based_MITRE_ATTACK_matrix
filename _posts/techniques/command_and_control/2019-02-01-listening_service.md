@@ -15,7 +15,6 @@ permalink: 'techniques/command_and_control/listening_service'
 ## Malware/Threat actors
 
 {% assign malwares = 'Gh0st Rat' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

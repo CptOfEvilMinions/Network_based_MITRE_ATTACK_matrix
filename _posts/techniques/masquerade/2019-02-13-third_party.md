@@ -14,7 +14,6 @@ permalink: 'techniques/masquerade/trusted_third_parth'
 
 <!-- Threat actors table -->
 {% assign malwares = 'APT38' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

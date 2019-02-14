@@ -14,7 +14,6 @@ permalink: 'techniques/delivery/poisoned_torrents'
 ## Malware/Threat actors
 
 {% assign malwares = 'Jaku,APT37,Dukes' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

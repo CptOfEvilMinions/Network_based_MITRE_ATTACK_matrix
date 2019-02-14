@@ -14,7 +14,6 @@ permalink: 'techniques/masquerade/rdp_reverse_tunneling'
 
 <!-- Threat actors table -->
 {% assign malwares = 'HURRICANE PANDA' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">

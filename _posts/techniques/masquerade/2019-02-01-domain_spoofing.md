@@ -15,7 +15,6 @@ This can be done by sending emails with false domain names which appear legitima
 ## Malware/Threat actors
 
 {% assign malwares = 'Operation Hangover' | split: ',' %}
-
 {% assign threat_actors = site.data.threat_actors %}
 
 <div class="threat-actor-table">
