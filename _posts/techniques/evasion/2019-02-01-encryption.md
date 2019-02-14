@@ -19,7 +19,7 @@ permalink: 'techniques/evasion/encryption'
 {% assign malwares = 'ETSO,Wild Neutron,Energetic Bear,Jaku,Dukes' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
-<div class="threat-actor-table">
+{% include threat_table.html %}
 <table>
     <colgroup>
         <col width="30%" />

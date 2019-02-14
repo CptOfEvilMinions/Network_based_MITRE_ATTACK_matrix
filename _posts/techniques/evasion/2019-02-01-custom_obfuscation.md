@@ -23,7 +23,7 @@ permalink: 'techniques/evasion/custom_obfuscation'
 {% assign malwares = 'TeamSpy,Wild Neutron,Lazarus Group' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
-<div class="threat-actor-table">
+{% include threat_table.html %}
 <table>
     <colgroup>
         <col width="30%" />

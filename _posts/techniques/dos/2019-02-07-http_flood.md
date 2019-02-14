@@ -17,7 +17,7 @@ permalink: 'techniques/dos/http_flood'
 {% assign malwares = 'DarkComet' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
-<div class="threat-actor-table">
+{% include threat_table.html %}
 <table>
     <colgroup>
         <col width="30%" />

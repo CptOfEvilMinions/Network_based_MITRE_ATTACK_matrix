@@ -16,7 +16,7 @@ permalink: 'techniques/evasion/anonymous_services'
 {% assign malwares = 'GRIZZLY STEPPE,Dukes' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
-<div class="threat-actor-table">
+{% include threat_table.html %}
 <table>
     <colgroup>
         <col width="30%" />

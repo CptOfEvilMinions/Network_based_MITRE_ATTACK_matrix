@@ -26,7 +26,7 @@ permalink: 'techniques/evasion/custom_protocol'
 {% assign malwares = 'Wild Neutron,icefog,APT1,Duqu Trojan,Turbo' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
-<div class="threat-actor-table">
+{% include threat_table.html %}
 <table>
     <colgroup>
         <col width="30%" />
