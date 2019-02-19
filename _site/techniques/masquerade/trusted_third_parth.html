@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>UDP Flood | Network based MITRE ATT&amp;CK matrix</title>
+<title>Trusted third party | Network based MITRE ATT&amp;CK matrix</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="UDP Flood" />
+<meta property="og:title" content="Trusted third party" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic." />
-<meta property="og:description" content="A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic." />
-<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood" />
-<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood" />
+<meta name="description" content="Attackers may compromise a subsidiary organization before moving into the parent organization." />
+<meta property="og:description" content="Attackers may compromise a subsidiary organization before moving into the parent organization." />
+<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth" />
+<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth" />
 <meta property="og:site_name" content="Network based MITRE ATT&amp;CK matrix" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-02-07T00:00:00-05:00" />
+<meta property="article:published_time" content="2019-02-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood","headline":"UDP Flood","dateModified":"2019-02-07T00:00:00-05:00","datePublished":"2019-02-07T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood"},"@context":"http://schema.org"}</script>
+{"description":"Attackers may compromise a subsidiary organization before moving into the parent organization.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth","headline":"Trusted third party","dateModified":"2019-02-13T00:00:00-05:00","datePublished":"2019-02-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Network_based_MITRE_ATTACK_matrix/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" title="Network based MITRE ATT&CK matrix" /></head>
 
@@ -46,16 +46,16 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">UDP Flood</h1>
-    <p class="post-meta">Feb 7, 2019</p>
+    <h1 class="post-title">Trusted third party</h1>
+    <p class="post-meta">Feb 13, 2019</p>
   </header>
 
   <article class="post-content">
-    <p>A <a href="https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/">UDP Flood</a> is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic.</p>
-
-<p><img src="/assets/images/udp-flood-attack-ddos-attack-diagram.png" alt="udp flood attack ddos attack diagram" /></p>
+    <p>Attackers may compromise a subsidiary organization before moving into the parent organization.</p>
 
 <h2 id="malwarethreat-actors">Malware/Threat actors</h2>
+
+<!-- Threat actors table -->
 
 <div class="threat-actor-table">
     <table>
@@ -75,10 +75,10 @@
             
             <tr>
             
-                <td>DarkComet</td>
-                <td>malware</td>
-                <td>2012</td>
-                <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2012/2012.03.13.DarkComet_RAT/Crypto-DarkComet-Report.pdf">Crypto-DarkComet-Report.pdf</a><br /></td>
+                <td>APT38</td>
+                <td>threat actor</td>
+                <td>2014-2018</td>
+                <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf">rpt-apt38-2018-web_v4.pdf</a><br /></td>
             </tr>
             
         </tbody>
@@ -87,7 +87,7 @@
 
 <h2 id="mitigations">Mitigations</h2>
 
-<p>Most operating systems limit the response rate of ICMP packets in part to disrupt DDoS attacks that require ICMP response. One drawback of this type of mitigation is that during an attack legitimate packets may also be filtered in the process. If the UDP flood has a volume high enough to saturate the state table of the targeted server’s firewall, any mitigation that occurs at the server level will be insufficient as the bottleneck will occur upstream from the targeted device.</p>
+<p><code class="highlighter-rouge">&lt;Mitigation techniques&gt;</code></p>
 
 <h2 id="detections">Detections</h2>
 
@@ -100,7 +100,7 @@
 <h2 id="resourcessources">Resources/Sources</h2>
 
 <ul>
-  <li><a href="https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/">UDP Flood Attack</a></li>
+  <li><code class="highlighter-rouge">[&lt;Source name&gt;](&lt;Source link&gt;)</code></li>
 </ul>
 
   </article>

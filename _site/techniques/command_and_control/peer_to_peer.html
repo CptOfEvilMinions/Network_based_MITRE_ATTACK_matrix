@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>UDP Flood | Network based MITRE ATT&amp;CK matrix</title>
+<title>Peer-to-peer | Network based MITRE ATT&amp;CK matrix</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="UDP Flood" />
+<meta property="og:title" content="Peer-to-peer" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic." />
-<meta property="og:description" content="A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic." />
-<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood" />
-<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood" />
+<meta name="description" content="The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server." />
+<meta property="og:description" content="The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server." />
+<link rel="canonical" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer" />
+<meta property="og:url" content="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer" />
 <meta property="og:site_name" content="Network based MITRE ATT&amp;CK matrix" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-02-07T00:00:00-05:00" />
+<meta property="article:published_time" content="2019-02-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"A UDP Flood is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood","headline":"UDP Flood","dateModified":"2019-02-07T00:00:00-05:00","datePublished":"2019-02-07T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/dos/udp_flood"},"@context":"http://schema.org"}</script>
+{"description":"The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.","@type":"BlogPosting","url":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer","headline":"Peer-to-peer","dateModified":"2019-02-13T00:00:00-05:00","datePublished":"2019-02-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Network_based_MITRE_ATTACK_matrix/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/feed.xml" title="Network based MITRE ATT&CK matrix" /></head>
 
@@ -46,16 +46,20 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">UDP Flood</h1>
-    <p class="post-meta">Feb 7, 2019</p>
+    <h1 class="post-title">Peer-to-peer</h1>
+    <p class="post-meta">Feb 13, 2019</p>
   </header>
 
   <article class="post-content">
-    <p>A <a href="https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/">UDP Flood</a> is a type of denial-of-service attack in which a large number of User Datagram Protocol (UDP) packets are sent to a targeted server with the aim of overwhelming that device’s ability to process and respond. The firewall protecting the targeted server can also become exhausted as a result of UDP flooding, resulting in a denial-of-service to legitimate traffic.</p>
+    <p>The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.</p>
 
-<p><img src="/assets/images/udp-flood-attack-ddos-attack-diagram.png" alt="udp flood attack ddos attack diagram" /></p>
+<p>Botnet masters stand to lose access to thousands or millions of infected computers if their control servers are shut down, so they’re looking into decentralized P2P communications, where botnet clients can relay commands to one another, as a resilience technique along with other methods like the use of domain name generation algorithms (DGAs), he said.</p>
+
+<p>Another benefit for attackers is that malicious P2P traffic is hard to detect and block at the network level by using traditional approaches that rely on lists of known IP addresses and hosts associated with C&amp;C servers.</p>
 
 <h2 id="malwarethreat-actors">Malware/Threat actors</h2>
+
+<!-- Threat actors table -->
 
 <div class="threat-actor-table">
     <table>
@@ -75,10 +79,18 @@
             
             <tr>
             
-                <td>DarkComet</td>
+                <td>Stuxnet</td>
                 <td>malware</td>
-                <td>2012</td>
-                <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2012/2012.03.13.DarkComet_RAT/Crypto-DarkComet-Report.pdf">Crypto-DarkComet-Report.pdf</a><br /></td>
+                <td>2008</td>
+                <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf">R41524.pdf</a><br /></td>
+            </tr>
+            
+            <tr>
+            
+                <td>Lazarus Group</td>
+                <td>threat actor</td>
+                <td>2011-2014</td>
+                <td><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf">Operation-Blockbuster-Report.pdf</a><br /></td>
             </tr>
             
         </tbody>
@@ -87,7 +99,7 @@
 
 <h2 id="mitigations">Mitigations</h2>
 
-<p>Most operating systems limit the response rate of ICMP packets in part to disrupt DDoS attacks that require ICMP response. One drawback of this type of mitigation is that during an attack legitimate packets may also be filtered in the process. If the UDP flood has a volume high enough to saturate the state table of the targeted server’s firewall, any mitigation that occurs at the server level will be insufficient as the bottleneck will occur upstream from the targeted device.</p>
+<p><code class="highlighter-rouge">&lt;Mitigation techniques&gt;</code></p>
 
 <h2 id="detections">Detections</h2>
 
@@ -100,7 +112,7 @@
 <h2 id="resourcessources">Resources/Sources</h2>
 
 <ul>
-  <li><a href="https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/">UDP Flood Attack</a></li>
+  <li><a href="https://www.pcworld.com/article/2040836/malware-increasingly-uses-peertopeer-communications-researchers-say.html">Malware increasingly uses peer-to-peer communications, researchers say</a></li>
 </ul>
 
   </article>

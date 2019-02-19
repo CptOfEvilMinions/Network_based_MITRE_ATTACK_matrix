@@ -65,6 +65,60 @@
     </thead>
     <tbody>
         <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/scanning_services">Scanning services</a></td>
+            <td>38</td>
+            <td>Recon and weaponization</td>
+            <td>Platforms like Shodan hunt for internet facing devices to perform scanning and enumeration.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/vpn_tunneling">VPN tunneling</a></td>
+            <td>34</td>
+            <td>Masquerade</td>
+            <td>Adversary reduces their footprint by using credentials to directly connect to the network and masquerade as VPN users instead of relying on the RAT.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/trusted_third_parth">Trusted third party</a></td>
+            <td>39</td>
+            <td>Masquerade</td>
+            <td>Attackers may compromise a subsidiary organization before moving into the parent organization.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/rdp_reverse_tunneling">Reverse RDP tunnel</a></td>
+            <td>35</td>
+            <td>Masquerade</td>
+            <td>Reverse RDP tunneling is when an attacker initiates a connection outbound to a server. The attacker can use this server to perform actions on this host.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/masquerade/certificate_impersonation">Certificate impersonation</a></td>
+            <td>41</td>
+            <td>Masquerade</td>
+            <td>In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/service_enumeration">Service enumeration</a></td>
+            <td>37</td>
+            <td>Internal recon</td>
+            <td>Network enumeration is a process that involves gathering information about a network such as the hosts, connected devices, along with usernames, group information and related data.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/internal_recon/port_scanning">Port scanning</a></td>
+            <td>38</td>
+            <td>Internal recon</td>
+            <td>A port scanner refers to a software application program that scans a server for open ports. It enables auditors and network administrators to examine network security while attackers and hackers use it to identify open ports for exploiting and/or running malicious services on a host computer or server.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/initial_compromise/malicious_stager">Malicious stager</a></td>
+            <td>40</td>
+            <td>Initial compromise</td>
+            <td>A stager is a small payload of instructing the computer to pull down the next phase of malicious code.</td>
+        </tr>
+        <tr>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/peer_to_peer">Peer-to-peer</a></td>
+            <td>36</td>
+            <td>Command and control</td>
+            <td>The peer-to-peer(P2P) protocol provides a decentralized command and control technique. A decentralized network allows botnet clients to relay commands to other bots and removes the need of a master server.</td>
+        </tr>
+        <tr>
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/vulnerability_scanning">Vulnerability scanning</a></td>
             <td>30</td>
             <td>Recon and weaponization</td>
@@ -78,13 +132,13 @@
         </tr>
         <tr>
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/commmand_and_control/irc">IRC</a></td>
-            <td><ID></ID></td>
+            <td>33</td>
             <td>Command and control</td>
             <td>Using internet relay chat(IRC) as a C2 channel.</td>
         </tr>
         <tr>
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/command_and_control/icmp">ICMP</a></td>
-            <td><ID></ID></td>
+            <td>32</td>
             <td>Command and control</td>
             <td>Using ICMP requests and replies as a C2 channel.</td>
         </tr>
@@ -191,7 +245,7 @@
             <td>Using the victim credentials the attacker authenticates to the victim machine on port 445 and try to gain access to the <code class="highlighter-rouge">Admin$ shares: (C$, IPC$, or ADMIN$)</code>. Access to <code class="highlighter-rouge">Admin$</code> allows for remote code execution including arbitrary code.</td>
         </tr>
         <tr>
-        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/lateral_movement/remote_desktop ">Remote Desktop</a></td>
+        <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/lateral_movement/remote_desktop">Remote Desktop</a></td>
             <td>23</td>
             <td>Lateral movement</td>
             <td>Attackers will use valid credentials to move laterally in environment by utilizing remote desktop.</td>
@@ -236,7 +290,7 @@
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/custom_obfuscation">Custom obfuscation</a></td>
             <td>14</td>
             <td>Evasion</td>
-            <td>Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechaniss to thwart defenders.</td>
+            <td>Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.</td>
         </tr>
         <tr>
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/evasion/compression">Compression</a></td>
