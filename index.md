@@ -10,7 +10,7 @@ layout: home
     <p>
         Adversaries are constantly coming up with new methods to thwart the effectiveness of security controls. Threat hunting provides a truly proactive solution to hunt for adversaries before they complete their mission. This research will create a matrix of adversary techniques to hunt for on a network and a mechanism to classify the actions of advanced persistent threats (APT).
         <br><br>
-        Threat hunting is based on the premise of investigation without cause. Network based threat hunting can be classified into a variety of attack themes(column headings), each of these themes contains a grouping of adversary techniques, and these techniques can be aggregated into a matrix to determine the likelihood of APT acting within a network. 
+        Threat hunting is based on the premise of investigation without cause. Network based threat hunting can be classified into a variety of attack themes(column headings), each of these themes contains a grouping of adversary techniques, and these techniques can be aggregated into a matrix to determine the likelihood of APT acting within a network.
         <br>
         <br>
     </p>
@@ -33,12 +33,97 @@ layout: home
 }
 </style>
 
-<div class="key" style="border:2px solid black;">
-    <h3><center><u><b>Matrix key</b></u></center></h3>
-    <div class="attack_theme_square"></div><u>Attack themes</u>
-    <div class="technique_square"></div><u>Techniques</u>
+<style>
+    table, caption, thead, tbody, td, tr {
+        border: 1px solid black;
+        padding: 1rem;
+        overflow: scroll;
+
+    }
+    .flexbox{
+        display: flex;
+        width: 100%
+        flex-wrap: nowrap;
+        height: 75rem;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px 1px 2px 1px;
+    }
+    .col{
+        height: 100%;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 1px 0 1px;
+    }
+    .theme{
+        padding: 10px;
+        font-weight: 700;
+        color: white;
+        background: DodgerBlue;
+        min-height: 5%;
+        max-height: 25px;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .techniques{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+    .col .technique{
+        padding: 5px 10px;
+        min-height: 50px;
+        text-decoration: none;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+    }
+
+    .col .technique:hover{
+        background-color: #6699cc;
+        color: white;
+    }
+    .key {
+        display: flex;
+    }
+    #keyItem {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+</style>
+
+<div class="key">
+    <div id="keyItem" class="attack_theme_square"></div>
+    Attack themes
+    <div id="keyItem" class="technique_square"></div>
+    Techniques
 </div>
+
 <br>
+
+<div class="flexbox">
+{% for theme in site.categories.themes %}
+    {% if theme.enabled == true %}
+    <div class="col">
+        <p class="theme"> {{ theme.title }}</p>
+        <div class="techniques">
+        {% for technique in site.categories.techniques %}
+            {% if technique.enabled == true and technique.theme == theme.title %}
+            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% endfor %}
+</div>
+
 <br>
 
 <div class="definitions" style="border:2px solid black;">
@@ -60,84 +145,3 @@ layout: home
         <li><u></u> </li>
     </ul>
 </div>
-<br>
-<br>
-
-<div class="flexbox">
-{% for theme in site.categories.themes %}
-    {% if theme.enabled == true %}
-    <div class="col">
-        <p class="theme"> {{ theme.title }}</p>
-        <div class="techniques">
-        {% for technique in site.categories.techniques %}
-            {% if technique.enabled == true and technique.theme == theme.title %}
-            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}</a>
-            {% endif %}
-        {% endfor %}
-    </div>
-</div>
-{% endif %}
-
-{% endfor %}
-</div>
-
-
-
-<style>
-    table, caption, thead, tbody, td, tr{
-        border: 1px solid black;
-        padding: 1rem;
-    }
-    .flexbox{
-        display: flex;
-        width: 100%
-        flex-wrap: nowrap;
-        height: 75rem;
-        border-style: solid;
-        border-color: black;
-        border-width: 2px 1px 2px 1px;
-    }
-    .col{
-        height: 100%;
-        border-style: solid;
-        border-color: black;
-        border-width: 0 1px 0 1px;
-     
-       
-    }
-    .theme{
-        padding: 10px;
-        font-weight: 700;
-        color: white;
-        background: DodgerBlue  ;
-        min-height: 5%;
-        max-height: 25px;
-        margin: 0;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .techniques{
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 100%;
-
-    }
-    .col .technique{
-        padding: 5px 10px;
-        min-height: 50px;
-        text-decoration: none;
-        border-style: solid;
-        border-color: black;
-        border-width: 0 0 1px 0;
-    }
-
-    .col .technique:hover{
-        background-color: #6699cc;
-        color: white;
-    }
-</style>
-
