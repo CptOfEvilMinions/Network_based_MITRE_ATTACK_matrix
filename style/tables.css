@@ -1,0 +1,97 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.attack_theme_square {
+  height: 20px;
+  width: 20px;
+  background-color: DodgerBlue;
+}
+.technique_square {
+    height: 20px;
+    width: 20px;
+    background-color: White;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+table, caption, thead, tbody, td, tr {
+    border: 1px solid black;
+    padding: 1rem;
+}
+.flexbox{
+    display: flex;
+    width: 1200px;
+    margin-left: -200px;
+    flex-wrap: nowrap;
+    overflow: visible;
+
+    height: 35rem;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 1px;
+}
+.col{
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 0px 0px;
+}
+.theme{
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    background: DodgerBlue;
+    min-height: 5%;
+    max-height: 25px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techniques{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.col .technique{
+    padding: 5px 10px;
+    min-height: 50px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 0px;
+}
+.col .technique:hover{
+    background-color: #6699cc;
+    color: white;
+}
+.key {
+    display: flex;
+}
+#keyItem {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        width: 400px;
+    }
+
+    .flexbox{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: visible;
+
+        height: 40rem;
+
+        border-style: solid;
+        border-color: black;
+        border-width: 0px 0px 0px 1px;
+    }
+}
