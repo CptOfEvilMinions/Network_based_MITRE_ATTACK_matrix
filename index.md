@@ -35,10 +35,8 @@ layout: home
 
 <div class="key" style="border:2px solid black;">
     <h3><center><u><b>Matrix key</b></u></center></h3>
-    <ul>
-        <li><div class="attack_theme_square"></div><u>Attack themes</u></li>
-        <li><div class="technique_square"></div><u>Techniques</u></li>
-    </ul>
+    <div class="attack_theme_square"></div><u>Attack themes</u>
+    <div class="technique_square"></div><u>Techniques</u>
 </div>
 <br>
 <br>
@@ -85,8 +83,6 @@ layout: home
 
 
 
-
-
 <style>
     table, caption, thead, tbody, td, tr{
         border: 1px solid black;
@@ -96,17 +92,14 @@ layout: home
         display: flex;
         width: 100%
         flex-wrap: nowrap;
-        height: 50rem;
+        height: 75rem;
         border-style: solid;
         border-color: black;
         border-width: 2px 1px 2px 1px;
-          
-        
-        
     }
     .col{
-height: 100%;
-      border-style: solid;
+        height: 100%;
+        border-style: solid;
         border-color: black;
         border-width: 0 1px 0 1px;
      
@@ -145,7 +138,6 @@ height: 100%;
     .col .technique:hover{
         background-color: #6699cc;
         color: white;
-
     }
 </style>
 
