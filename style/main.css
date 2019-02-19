@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar|Open+Sans');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  overflow-x:hidden;
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Eczar', serif;
+  opacity: 0.8;
+}
+
+p, ul, li {
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.7;
+}
+
+#post-preview {
+  list-style-type: none;
+}
+
+/** CSS transitions from here: https://codepen.io/EvyatarDa/pen/waKXMd */
+
+div.container {
+    top: 0;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    z-index: 500;
+    font-family: Raleway;
+    margin: 0 auto;
+  	padding-top: 2em;
+    padding-bottom: 2em;
+  	text-align: center;
+    border-bottom: 3px solid rgba(0, 0, 0, .7);
+}
+
+div.container a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+div.borderXwidth a:before, div.borderXwidth a:after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #000;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before {
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after {
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
+    opacity: 0.7;
+    width: 100%;
+}
+
+/* Main Content */
+#mainContent {
+  width: 800px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#projectBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Link styles */
+a {
+  color: #211eb4;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.8;
+  z-index: 10; /*or whatever number that is a positive real number. */
+  transition: color .3s ease;
+  -moz-transition: color .3s ease;
+}
+
+a:hover {
+  color: #d60568;
+}
+
+a:active {
+  color: #d60568;
+}
+
+/* Footer */
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer img {
+  width: 28px;
+  height: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+  filter: brightness(0%) opacity(70%);
+}
+
+/*
+I grabbed the following code / pre tag stuff from this blog:
+https://perishablepress.com/perfect-pre-tags/
+*/
+code, samp, kbd {
+    font-family: "Courier New", Courier, monospace, sans-serif;
+    text-align: left;
+    color: #555;
+}
+pre code {
+	line-height: 1.6em;
+	font-size: 11px;
+}
+pre {
+	padding: 0.1em 0.5em 0.3em 0.7em;
+	border-left: 11px solid #ccc;
+	margin: 1.7em 0 1.7em 0.3em;
+	overflow: auto;
+	width: 93%;
+}
+/* target IE7 and IE6 */
+*:first-child+html pre {
+	padding-bottom: 2em;
+	overflow-y: hidden;
+	overflow: visible;
+	overflow-x: auto;
+}
+* html pre {
+	padding-bottom: 2em;
+	overflow: visible;
+	overflow-x: auto;
+}
+
+/* Tablet kinda adjustments */
+@media screen and (max-width: 910px) {
+    #mainContent {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #mainContent img {
+        width: 300px;
+    }
+}
+
+/** Moible adjustments */
+@media screen and (max-width: 400px) {
+    .nav-items {
+        text-align: center;
+    }
+
+    .nav-bucket {
+        padding: 5px;
+        float: none;
+    }
+
+    #mainContent {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #mainContent img {
+        width: 270px;
+    }
+}
