@@ -5,8 +5,6 @@
   height: 20px;
   width: 20px;
   background-color: DodgerBlue;
-  /*border-style: solid;
-  border-color: black;*/
 }
 .technique_square {
     height: 20px;
@@ -21,20 +19,19 @@
 table, caption, thead, tbody, td, tr {
     border: 1px solid black;
     padding: 1rem;
-    overflow: scroll;
-
 }
 .flexbox{
     display: flex;
     width: 1200px;
     margin-left: -200px;
     flex-wrap: nowrap;
-    overflow: scroll;
-    height: 40rem;
+    overflow: visible;
+
+    height: 35rem;
 
     border-style: solid;
     border-color: black;
-    border-width: 0px 0px 0px 1px;
+    border-width: 0px 0px 1px 1px;
 }
 .col{
     height: 100%;
@@ -67,7 +64,7 @@ table, caption, thead, tbody, td, tr {
     text-decoration: none;
     border-style: solid;
     border-color: black;
-    border-width: 0 0 1px 0;
+    border-width: 0px 0px 1px 0px;
 }
 .col .technique:hover{
     background-color: #6699cc;
@@ -79,4 +76,22 @@ table, caption, thead, tbody, td, tr {
 #keyItem {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        width: 400px;
+    }
+
+    .flexbox{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: visible;
+
+        height: 40rem;
+
+        border-style: solid;
+        border-color: black;
+        border-width: 0px 0px 0px 1px;
+    }
 }
