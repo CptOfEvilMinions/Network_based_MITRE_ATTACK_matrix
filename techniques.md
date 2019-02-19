@@ -3,6 +3,9 @@ layout: page
 title: Techniques
 permalink: /techniques/
 ---
+
+{% include search_type.html %}
+
 <table>
     <colgroup>
         <col width="5%" />
@@ -11,14 +14,14 @@ permalink: /techniques/
         <col width="80%" />
     </colgroup>
     <thead>
-        <tr class="header">
+        <tr>
             <th>Name</th>
             <th>Id</th>
             <th>Theme</th>
             <th>Description</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
         {%- for post in site.categories.techniques %}
         {%- if post.enabled == true %}
         <tr>

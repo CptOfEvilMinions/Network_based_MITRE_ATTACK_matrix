@@ -34,7 +34,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/techniques/">Techniques</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/themes/">Themes</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/threat_actors/">Threat actors</a></div>
+        <div class="trigger"><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/themes/">Attack themes</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/techniques/">Techniques</a><a class="page-link" href="/Network_based_MITRE_ATTACK_matrix/threat_actors/">Threat actors</a></div>
       </nav></div>
 </header>
 
@@ -48,7 +48,41 @@
   </header>
 
   <article class="post-content">
-    <table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<p><input id="myInput" type="text" placeholder="Search.." />
+<br /><br /></p>
+
+<table>
     <colgroup>
         <col width="5%" />
         <col width="5%" />
@@ -56,14 +90,14 @@
         <col width="80%" />
     </colgroup>
     <thead>
-        <tr class="header">
+        <tr>
             <th>Name</th>
             <th>Id</th>
             <th>Theme</th>
             <th>Description</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
         <tr>
         <td><a href="http://localhost:4000/Network_based_MITRE_ATTACK_matrix/techniques/recon_and_weaponization/scanning_services">Scanning services</a></td>
             <td>38</td>

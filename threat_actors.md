@@ -3,6 +3,8 @@ layout: page
 title: Threat actors
 permalink: /threat_actors/
 ---
+{% include search_type.html %}
+
 {% assign threat_actors = site.data.threat_actors %}
 <table>
     <colgroup>
@@ -21,7 +23,7 @@ permalink: /threat_actors/
             <th>Description</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
         {%- for threat_actor in threat_actors[0] %}
         <tr>
         {% assign tmp = threat_actor[1] -%}

@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Themes
+title: 'Attack themes'
 permalink: /themes/
 ---
+
+{% include search_type.html %}
 
 <table>
     <colgroup>
@@ -15,7 +17,7 @@ permalink: /themes/
             <th>Description</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
         {%- for post in site.categories.themes %}
         {%- if post.enabled == true %}
         <tr>
