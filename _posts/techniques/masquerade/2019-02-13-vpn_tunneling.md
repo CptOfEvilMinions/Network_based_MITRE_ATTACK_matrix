@@ -24,7 +24,8 @@ permalink: 'techniques/masquerade/vpn_tunneling'
 
 ## Detections
 
-`<Detection techniques>`
+* Monitor source IP addresses connecting to your VPN instance and compare these addresses to a GeoIP database. Your users should be connecting to your VPN from locations that relative to office locations.
+* Monitor timestamps when connections are initiated to your VPN instance. Look for timestamps of users connecting to the VPN at irregular times.
 
 ## Toolkit
 

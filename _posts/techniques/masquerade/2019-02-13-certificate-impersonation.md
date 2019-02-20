@@ -24,7 +24,7 @@ permalink: 'techniques/masquerade/certificate_impersonation'
 
 ## Detections
 
-* Monitor certificates being used in the environment and detect self-signed certs. Extract the `common name` field from the certificate and compare the base domain to Alexa's top million.
+* Monitor certificates being used in the environment and detect self-signed certs. Extract the `commonname` field from the certificate and compare the base domain to Alexa's top million.
 * Compare the SHA1 hash of the certificate to Abuse.sh's SHA1 blacklist
 
 ## Toolkit

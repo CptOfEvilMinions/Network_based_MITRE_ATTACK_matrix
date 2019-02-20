@@ -21,12 +21,16 @@ This can be done by sending emails with false domain names which appear legitima
 
 ## Mitigations
 
-`<Mitigation techniques>`
+* Use trusted DNS servers like OpenDNS or Google's public DNS service.
 
 ## Detections
 
-`<Detection techniques>`
+* Monitor DNS queries in the environment. If the base domain of the query does not exist in Alexa's top million try:
+  * Do a `WHOIS` lookup on the domain to see when the domain was registered. If the domain is less than 30 days old then the probability is higher that it is malicious.
+  * Apply an algorithm to detect how similar the base domain in the query is to your organization's domain or a domain in Alexa's top million. Attackers will register domains that look similar to your domain but may have two letters swapped.
+* If your environment has a baseline of the domains visited you can detect new domains.
 
+  
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
@@ -34,3 +38,4 @@ This can be done by sending emails with false domain names which appear legitima
 ## Resources/Sources
 
 * [Domain Spoofing](https://www.barracuda.com/glossary/domain-spoofing)
+* [Finding NEW Evil: Detecting New Domains with Splunk](https://www.splunk.com/blog/2018/01/17/finding-new-evil-detecting-new-domains-with-splunk.html)
