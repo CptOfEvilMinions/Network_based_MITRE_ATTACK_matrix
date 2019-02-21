@@ -17,22 +17,22 @@ permalink: 'techniques/internal_recon/port_scanning'
 * ACK Scan - sends TCP packets with only the ACK flag set. This scan may get two outcomes as a result:
   * a RST packet (the port is closed or open).
 
-* SYN Scan(Stealth scan) - sends TCP packets with only the SYN flag set. This scan may get two outcomes as a result; 
+* SYN Scan(Stealth scan) - sends TCP packets with only the SYN flag set. This scan may get two outcomes as a result:
   * a TCP packet with SYN + ACK flags set (the port is open)
   * a RST packet (the port is closed. This scan starts a normal TCP session - but it does not finish the TCP session establishment with an ACK: it is only half finished.
 
 * TCP Connect Scan - scan is a the odd scan in this collection of scans. A TCP Scan use the connect () system call against its victim. TCP Connect Scan do not use TCP flags. This kind of scan is often recognized and logged by servers.
 
-* NULL Scan - sends TCP packets with no flag set. This scan may get two outcomes as a result;
+* NULL Scan - sends TCP packets with no flag set. This scan may get two outcomes as a result:
   * no response (the port is open)
   * a RST packet (the port is closed).
 
-* FIN Scan - sends TCP packets with only the FIN flag set. This scan may get two outcomes as a result;
+* FIN Scan - sends TCP packets with only the FIN flag set. This scan may get two outcomes as a result:
   * no response (the port is open)
   * a RST (the port is closed).
 
 * XMAS Scan - sends TCP packets with FIN, PSH and URG flags set (lighting the packet up like a Christmas three). This
-scan may get two outcomes as a result; 
+scan may get two outcomes as a result:
   * no response (the port is open)
   * a RST (the port is closed).
 
@@ -57,23 +57,16 @@ NMAP is a popular port scanning tool that has several methods of scanning ports.
 | ACK scan | `RSTRH` | `nmap <IP> -p [22,23] -sA` | ACK scan port open and closed |
 | Stealth scan | `RSTOS0` | `nmap <IP> -p 22 -sS` | Stealth scan port open |
 | Stealth scan | `REJ` | `nmap <IP> -p 23 -sS` | Stealth scan port closed |
-| FIN Scan | `SH` | `nmap <IP> -p 22 -sS` | FIN scan port open |
-| FIN Scan | `RSTR` | `nmap <IP> -p 23 -sS` | FIN scan port closed |
+| FIN Scan | `SH` x2 | `nmap <IP> -p 22 -sF` | FIN scan port open |
+| FIN Scan | `RSTR` | `nmap <IP> -p 23 -sF` | FIN scan port closed |
 | XMAS Scan | `SH` x2 | `nmap <IP> -p 22 -sX` | XMAS scan port open |
 | XMAS Scan | `RSTR` | `nmap <IP> -p 23 -sX` | XMAS scan port closed |
 | TCP Connect Scan | `RSTOS0` | `nmap <IP> -p 22 -sT` | TCP Connect Scan port open |
 | TCP Connect Scan | `REJ` | `nmap <IP> -p 23 -sT` | TCP Connect Scan port closed |
 The following table was built based on our testing
 
+
 ## Toolkit
-
-EQL query for ACK scan:
-
-```
-eqllib query -s "Bro events" -f conn.jsonl  "sequence with maxspan=30s
-[bro_conn where conn_state in ('RSTRH', 'RSTOS0')]
-[bro_conn where true | unqiue_count source_address | filter count > 0 ]"
-```
 
 ## Resources/Sources
 
