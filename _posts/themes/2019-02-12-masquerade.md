@@ -17,6 +17,9 @@ Once the attacker has been authorized for entry, they may have full access to th
 * Spoofing
 * Hijacking
 
+## Matrix techniques
+{% include list_techniques.html %}
+
 ## Resources/Sources
 
 * [SearchSecurity - Masquerade](https://searchsecurity.techtarget.com/definition/masquerade)

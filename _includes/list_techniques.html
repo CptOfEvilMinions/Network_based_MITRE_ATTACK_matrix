@@ -1,0 +1,7 @@
+<ul>
+    {% for technique in site.categories.techniques %}
+        {% if technique.enabled == true and technique.theme == page.title %}
+           <li><a href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}" >{{ technique.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>

@@ -13,6 +13,9 @@ permalink: 'themes/command_and_control'
 * HTTP
 * DNS
 
+## Matrix techniques
+{% include list_techniques.html %}
+
 ## Resources/Sources
 
 * [Command and Control [C&C] Server](https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server)
