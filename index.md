@@ -46,7 +46,7 @@ layout: default
 {% for theme in site.categories.themes %}
     {% if theme.enabled == true %}
     <div class="col">
-        <p class="theme"> {{ theme.title }}</p>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}"><p class="theme">{{ theme.title }}</p></a>
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
