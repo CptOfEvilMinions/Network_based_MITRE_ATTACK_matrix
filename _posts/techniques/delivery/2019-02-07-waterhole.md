@@ -5,7 +5,9 @@ title: Watering hole
 category: techniques
 theme: Delivery
 Id: 08
-description: "A [watering hole attack](https://searchsecurity.techtarget.com/definition/watering-hole-attack) is a security exploit in which the attacker seeks to compromise a specific group of end users by infecting websites that members of the group are known to visit. The goal is to infect a targeted user's computer and gain access to the network at the target's place of employment."
+description: "A watering hole attack is a security exploit in which the attacker seeks to compromise a specific group of end users by infecting websites that members of the group are known to visit. The goal is to infect a targeted user's computer and gain access to the network at the target's place of employment."
+prevention: true
+detection: true
 permalink: 'techniques/delivery/wateringhole'
 ---
 {{ page. description }}
@@ -26,7 +28,7 @@ permalink: 'techniques/delivery/wateringhole'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 * Keep all commonly used software and operating systems patched and updated to the latest versions
 * Inspect all popular websites that employees visit and routinely inspect these sites for malware
@@ -39,6 +41,11 @@ permalink: 'techniques/delivery/wateringhole'
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

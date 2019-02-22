@@ -6,6 +6,8 @@ category: techniques
 theme: Masquerade
 Id: 34
 description: 'Adversary reduces their footprint by using credentials to directly connect to the network and masquerade as VPN users instead of relying on the RAT.'
+prevention: false
+detection: true
 permalink: 'techniques/masquerade/vpn_tunneling'
 ---
 {{ page. description }}
@@ -18,17 +20,23 @@ permalink: 'techniques/masquerade/vpn_tunneling'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
 ## Detections
 
-`<Detection techniques>`
+* Monitor source IP addresses connecting to your VPN instance and compare these addresses to a GeoIP database. Your users should be connecting to your VPN from locations that relative to office locations.
+* Monitor timestamps when connections are initiated to your VPN instance. Look for timestamps of users connecting to the VPN at irregular times.
 
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

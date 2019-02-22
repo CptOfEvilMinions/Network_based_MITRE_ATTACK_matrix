@@ -1,29 +1,17 @@
+var x = document.getElementsByClassName("technique");
 
+var links = document.querySelectorAll('a');
 
-var url = "threat_actors.json";
-var all_actors = []
-
-
-function get_actors (callback) {
-    $.getJSON(url, callback)
-};
-
-
-
-var y = document.getElementById("threat-actors");
-var items = y.getElementsByTagName("li");
-console.log(y);
-
-
-
-
-
-//callback function
-get_actors(function(url) {
-
-    all_actors = JSON.parse(url);
-    console.log(all_actors)
-
-
+[].forEach.call(links, function(link) {
+    
+  link.addEventListener("mouseenter", function() {
+    
+    var newPreLoadLink = document.createElement("link");
+    newPreLoadLink.rel = "prerender";
+    newPreLoadLink.href = link.href;
+    
+    document.head.appendChild(newPreLoadLink);
+    
+  })
+  
 });
-

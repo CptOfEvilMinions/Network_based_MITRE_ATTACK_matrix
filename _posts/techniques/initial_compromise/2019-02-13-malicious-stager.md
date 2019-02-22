@@ -6,6 +6,8 @@ category: techniques
 theme: 'Initial compromise'
 Id: 40
 description: 'A stager is a small payload of instructing the computer to pull down the next phase of malicious code.'
+prevention: true
+detection: true
 permalink: 'techniques/initial_compromise/malicious_stager'
 ---
 {{ page. description }}
@@ -25,7 +27,7 @@ Stagers may be malicious pieces of code inserted into documents to weaponize the
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 * Microsoft Office has an option to only allow Microsoft signed macros to run.
 * Keep applications up to date
@@ -37,6 +39,11 @@ Monitor the user-agent field in HTTP for applications like Microsoft Office, Pow
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

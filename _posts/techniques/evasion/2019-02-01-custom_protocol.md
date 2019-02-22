@@ -1,17 +1,13 @@
 ---
 layout: post
 enabled: true
-title: Custom protocol
-category: techniques
-permalink: 
-
-layout: post
-enabled: true
 title: 'Custom protocol'
 category: techniques
 theme: Evasion
 Id: 15
 description: 'Threat actors may create custom protocols to thwart security controls from reading/interpreting the data in transit.'
+prevention: false
+detection: true
 permalink: 'techniques/evasion/custom_protocol'
 ---
 {{ page. description }}
@@ -28,7 +24,7 @@ permalink: 'techniques/evasion/custom_protocol'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 

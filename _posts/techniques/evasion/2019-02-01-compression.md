@@ -6,6 +6,8 @@ category: techniques
 theme: Evasion
 Id: 13
 description: 'Compression is the act of reducing the number of bits needed to represent data. Attackers may use compression to obfuscate the data being transfered, bundle malware and tools, or a faster upload during exfiltration'
+prevention: false
+detection: false
 permalink: 'techniques/evasion/compression'
 ---
 {{ page. description }}
@@ -17,7 +19,7 @@ permalink: 'techniques/evasion/compression'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
@@ -28,6 +30,11 @@ permalink: 'techniques/evasion/compression'
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

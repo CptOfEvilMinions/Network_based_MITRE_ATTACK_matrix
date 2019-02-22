@@ -6,6 +6,8 @@ category: techniques
 theme: 'Internal recon'
 Id: 37
 description: 'Network enumeration is a process that involves gathering information about a network such as the hosts, connected devices, along with usernames, group information and related data.'
+prevention: false
+detection: false
 permalink: 'techniques/internal_recon/service_enumeration'
 ---
 {{ page. description }}
@@ -18,7 +20,7 @@ permalink: 'techniques/internal_recon/service_enumeration'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
@@ -29,6 +31,11 @@ permalink: 'techniques/internal_recon/service_enumeration'
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

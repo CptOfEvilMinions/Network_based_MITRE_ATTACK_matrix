@@ -6,6 +6,8 @@ category: techniques
 theme: "Command and control"
 Id: 04
 description: ""
+prevention: false
+detection: false
 permalink: 'techniques/command_and_control/listening_service'
 ---
 {{ page. description }}
@@ -19,7 +21,7 @@ permalink: 'techniques/command_and_control/listening_service'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
@@ -30,6 +32,11 @@ permalink: 'techniques/command_and_control/listening_service'
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 

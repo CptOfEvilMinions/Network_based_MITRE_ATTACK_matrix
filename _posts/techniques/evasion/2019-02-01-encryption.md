@@ -6,6 +6,8 @@ category: techniques
 theme: Evasion
 Id: 17
 description: 'Threat actors may utilize encryption to thwart security controls from reading/interpreting the data in transit.'
+prevention: false
+detection: false
 permalink: 'techniques/evasion/encryption'
 ---
 {{ page. description }}
@@ -21,7 +23,7 @@ permalink: 'techniques/evasion/encryption'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
@@ -32,6 +34,11 @@ permalink: 'techniques/evasion/encryption'
 ## Toolkit
 
 `<Toolkit instructions, if applicable>`
+
+## Similar techniques
+
+{% include list_techniques.html %}
+
 
 ## Resources/Sources
 
