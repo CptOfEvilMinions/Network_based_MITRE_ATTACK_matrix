@@ -6,6 +6,8 @@ category: techniques
 theme: 'Recon and weaponization'
 Id: 38
 description: 'Platforms like Shodan hunt for internet facing devices to perform scanning and enumeration.'
+prevention: true
+detection: true
 permalink: 'techniques/recon_and_weaponization/scanning_services'
 ---
 {{ page. description }}
@@ -24,7 +26,7 @@ These scanning services provide mechanisms to search there database for a partic
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 One mitigation is to block the IP addresses of these scanners. Shodan provides a [public list](https://wiki.ipfire.org/configuration/firewall/blockshodan) of these IP addresses.
 

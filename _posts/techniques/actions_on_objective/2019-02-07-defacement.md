@@ -6,6 +6,8 @@ category: techniques
 theme: "Actions on objective"
 Id: 01
 description: '[Website defacement](https://en.wikipedia.org/wiki/Website_defacement) is an attack on a website that changes the visual appearance of the site or a webpage. These are typically the work of defacers, who break into a web server and replace the hosted website with one of their own. Defacement is generally meant as a kind of electronic graffiti and, as other forms of vandalism, is also used to spread messages by politically motivated "cyber protesters" or hacktivists[1].'
+prevention: false
+detection: true
 permalink: 'techniques/actions_on_objective/defacement'
 ---
 {{ page.description }}
@@ -19,7 +21,7 @@ permalink: 'techniques/actions_on_objective/defacement'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 

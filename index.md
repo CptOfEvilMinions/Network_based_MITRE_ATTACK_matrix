@@ -2,7 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+
+
 ---
 
 <h1><u><center>About this project</center></u></h1>
@@ -21,6 +23,20 @@ layout: home
     Attack themes
     <div id="keyItem" class="technique_square"></div>
     Techniques
+    <div id="keyItem">
+        <object class="symbol Prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
+            <img src="yourfallback.jpg" /> 
+        </object>
+    </div>
+    Prevention
+    <div id="keyItem">
+        <object class="symbol prevention" data="{{site.baseurl}}/assets/images/detection.svg" type="image/svg+xml">
+            <img src="yourfallback.jpg" /> 
+        </object>
+    </div>
+    Detection
+
+    
 </div>
 
 <br>
@@ -33,7 +49,19 @@ layout: home
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
-            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}</a>
+            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}
+            {% if technique.prevention %}
+            <object class="symbol prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
+                <img src="yourfallback.jpg" /> 
+                </object>
+            {% endif %}
+            {% if technique.detection %}
+            <object class="symbol prevention" data="{{site.baseurl}}/assets/images/detection.svg" type="image/svg+xml">
+                <img src="yourfallback.jpg" /> 
+                </object>
+            {% endif %}
+            </a>
+            
             {% endif %}
         {% endfor %}
     </div>
@@ -64,3 +92,6 @@ layout: home
         <li><u></u> </li>
     </ul>
 </div>
+
+<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

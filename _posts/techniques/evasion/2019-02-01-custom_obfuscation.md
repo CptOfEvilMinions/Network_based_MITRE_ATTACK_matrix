@@ -6,6 +6,8 @@ category: techniques
 theme: Evasion
 Id: 14
 description: 'Threat actors may create custom obfuscation(encryption, encoding, and hashing) mechanisms to thwart defenders.'
+prevention: false
+detection: true
 permalink: 'techniques/evasion/custom_obfuscation'
 ---
 {{ page. description }}
@@ -25,7 +27,7 @@ permalink: 'techniques/evasion/custom_obfuscation'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 

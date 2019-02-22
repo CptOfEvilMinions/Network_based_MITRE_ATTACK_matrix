@@ -6,6 +6,8 @@ category: techniques
 theme: 'Masquerade'
 Id: 39
 description: 'Attackers may compromise a subsidiary organization before moving into the parent organization.'
+prevention: false
+detection: true
 permalink: 'techniques/masquerade/trusted_third_parth'
 ---
 {{ page. description }}
@@ -20,7 +22,7 @@ Third parties may need access to data on your network. Your team should have an 
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 

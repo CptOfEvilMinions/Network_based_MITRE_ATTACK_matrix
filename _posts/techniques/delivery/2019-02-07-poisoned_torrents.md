@@ -6,6 +6,8 @@ category: techniques
 theme: 'Delivery'
 Id: 08
 description: 'The technique of threat actors deploying torrent files onto torrent sites that are pre- infected with malware has not been widely seen before, especially with respect to BitTorrent-types of attack. This behavior is difficult to trace and track and is indiscriminate in its infection pattern unless it has some means of targeting desired demographics.'
+prevention: false
+detection: false
 permalink: 'techniques/delivery/poisoned_torrents'
 ---
 {{ page. description }}
@@ -18,7 +20,7 @@ permalink: 'techniques/delivery/poisoned_torrents'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 

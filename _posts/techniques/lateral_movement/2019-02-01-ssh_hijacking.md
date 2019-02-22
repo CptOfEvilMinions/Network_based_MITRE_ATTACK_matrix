@@ -6,6 +6,8 @@ category: techniques
 theme: 'Lateral movement'
 Id: 24
 description: "In order to move laterally from a compromised host, adversaries may take advantage of trust relationships established with other systems via public key authentication in active SSH sessions by hijacking an existing connection to another system."
+prevention: true
+detection: true
 permalink: 'techniques/lateral_movement/ssh_hijacking'
 ---
 {{ page. description }}

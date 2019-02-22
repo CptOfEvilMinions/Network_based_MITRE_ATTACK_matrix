@@ -6,6 +6,8 @@ category: techniques
 theme: Masquerade
 Id: 28
 description: '[Domain Spoofing](https://www.barracuda.com/glossary/domain-spoofing), a common form of phishing, occurs when an attacker appears to use a company’s domain to impersonate a company or one of its employees.'
+prevention: true
+detection: true
 permalink: 'techniques/masquerade/domain_spoofing'
 ---
 {{ page. description }}
@@ -19,7 +21,7 @@ This can be done by sending emails with false domain names which appear legitima
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 * Use trusted DNS servers like OpenDNS or Google's public DNS service.
 

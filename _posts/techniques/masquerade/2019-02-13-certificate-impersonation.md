@@ -6,6 +6,8 @@ category: techniques
 theme: 'Masquerade'
 Id: 41
 description: 'In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.'
+prevention: false
+detection: true
 permalink: 'techniques/masquerade/certificate_impersonation'
 ---
 {{ page. description }}
@@ -18,7 +20,7 @@ permalink: 'techniques/masquerade/certificate_impersonation'
 
 {% include threat_table.html %}
 
-## Mitigations
+## Preventions
 
 `<Mitigation techniques>`
 
