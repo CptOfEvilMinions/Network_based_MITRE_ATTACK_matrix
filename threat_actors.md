@@ -6,21 +6,25 @@ permalink: /threat_actors/
 {% include search_type.html %}
 
 {% assign threat_actors = site.data.threat_actors %}
+
+<style>
+.file{
+    width: 25px;
+    margin:0 auto;
+}
+.file-link{
+    margin:0 auto;
+}
+</style>
+
 <table>
-    <colgroup>
-        <col width="1%" />
-        <col width="1%" />
-        <col width="1%" />
-        <col width="2%" />
-        <col width="5%" />
-    </colgroup>
     <thead>
         <tr class="header">
             <th>Name</th>
             <th>Type</th>
             <th>Years</th>
-            <th>Source</th>
             <th>Description</th>
+            <th>PDF</th>
         </tr>
     </thead>
     <tbody id="myTable">
@@ -30,13 +34,15 @@ permalink: /threat_actors/
             <td markdown="span">{{ threat_actor[0] }}</td>
             <td markdown="span">{{ tmp.type }}</td>
             <td markdown="span">{{ tmp.years }}</td>
+            <td markdown="span">{{ tmp.description }}</td>
             <td markdown="span">
                 {%- for source in tmp.sources -%}
                     {%- assign source1 = source | split:'/' -%}
-                    <a href="{{ source }}">{{ source1[-1] }}</a><br>
+                    <a href="{{ source }}" class="file-link">
+                        <img class="file" src="{{ site.baseurl }}/assets/images/file.png">
+                    </a><br>
                 {%- endfor -%}
             </td>
-            <td markdown="span">{{ tmp.description }}</td>
         </tr>
         {% endfor %}
     </tbody>
