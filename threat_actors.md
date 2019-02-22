@@ -24,7 +24,7 @@ permalink: /threat_actors/
             <th>Type</th>
             <th>Years</th>
             <th>Description</th>
-            <th>PDF</th>
+            <th>PDFs</th>
         </tr>
     </thead>
     <tbody id="myTable">
