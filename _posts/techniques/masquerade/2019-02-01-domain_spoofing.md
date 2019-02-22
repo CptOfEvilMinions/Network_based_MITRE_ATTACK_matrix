@@ -37,6 +37,11 @@ This can be done by sending emails with false domain names which appear legitima
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Domain Spoofing](https://www.barracuda.com/glossary/domain-spoofing)

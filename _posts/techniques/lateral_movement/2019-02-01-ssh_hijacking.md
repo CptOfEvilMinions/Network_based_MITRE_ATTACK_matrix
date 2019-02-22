@@ -36,6 +36,11 @@ Use of SSH may be legitimate, depending upon the network environment and how it 
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * `[<Source name>](<Source link>)`

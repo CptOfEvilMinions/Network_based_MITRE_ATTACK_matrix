@@ -31,6 +31,11 @@ permalink: 'techniques/masquerade/arp_spoofing'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [ARP SPOOFING](https://www.veracode.com/security/arp-spoofing)

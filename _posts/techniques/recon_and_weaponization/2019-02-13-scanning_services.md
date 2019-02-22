@@ -39,6 +39,11 @@ One mitigation is to block the IP addresses of these scanners. Shodan provides a
 
 * `eqllib query -s "Bro events" -f conn.log "bro_conn where source_address in ('<SHODAN public IPs>')`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [How to block Shodan scanners](https://wiki.ipfire.org/configuration/firewall/blockshodan)

@@ -33,6 +33,11 @@ permalink: 'techniques/initial_compromise/sql_injection'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)

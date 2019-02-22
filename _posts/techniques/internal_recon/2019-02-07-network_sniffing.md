@@ -32,6 +32,11 @@ permalink: 'techniques/internal_recon/network_sniffing'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Cyber Security Attacks Network Sniffing](http://www.valencynetworks.com/articles/cyber-security-attacks-network-sniffing.html)

@@ -42,6 +42,11 @@ permalink: 'techniques/delivery/wateringhole'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Watering hole attack](https://searchsecurity.techtarget.com/definition/watering-hole-attack)

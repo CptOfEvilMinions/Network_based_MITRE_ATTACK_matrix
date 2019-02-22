@@ -33,6 +33,11 @@ permalink: 'techniques/lateral_movement/remote_desktop'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * `[<Source name>](<Source link>)`

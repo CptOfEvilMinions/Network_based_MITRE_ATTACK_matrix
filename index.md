@@ -3,21 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-
-
 ---
-
-<h1><u><center>About this project</center></u></h1>
-<div class="abstract_textbox">
-    <p>
-        Adversaries are constantly coming up with new methods to thwart the effectiveness of security controls. Threat hunting provides a truly proactive solution to hunt for adversaries before they complete their mission. This research has created a matrix of adversary techniques to hunt for on a network and a mechanism to classify the actions of advanced persistent threats (APT).
-        <br><br>
-        Threat hunting is based on the premise of investigation without cause. Network-based threat hunting has been classified into a variety of attack themes(column headings), each of these themes contains a grouping of adversary techniques, and these techniques have been aggregated into a matrix to determine the likelihood of APT acting within a network.
-        <br>
-        <br>
-    </p>
-</div>
-
 
 <div class="key">
     <div id="keyItem" class="attack_theme_square"></div>
@@ -71,6 +57,26 @@ layout: default
 
 <br>
 
+<h1><u><center>About this project</center></u></h1>
+<div class="abstract_textbox">
+    <p>
+        Adversaries are constantly coming up with new methods to thwart the effectiveness of security controls. Threat hunting provides a truly proactive solution to hunt for adversaries before they complete their mission. This research has created a matrix of adversary techniques to hunt for on a network and a mechanism to classify the actions of advanced persistent threats (APT).
+        <br><br>
+        Threat hunting is based on the premise of investigation without cause. Network-based threat hunting has been classified into a variety of attack themes(column headings), each of these themes contains a grouping of adversary techniques, and these techniques have been aggregated into a matrix to determine the likelihood of APT acting within a network.
+        <br>
+        <br>
+    </p>
+</div>
+
+<h2><u><center>This matrix vs. MITRE ATT&CK</center></u></h2>
+<div class="abstract_textbox">
+    <p>
+        At the current time of this project, the <a href="https://attack.mitre.org/">MITRE ATT&CK matrix</a> is targeted at host based detection and mitigation. The deliverable from this project is a MITRE ATT&CK like matrix for network-based threat hunting. In the current landscape of security, we need to monitor endpoints and network traffic. This matrix is a collection of tehcniques to hunt for on the network with potential mitigations and detections.
+    </p>
+</div>
+
+<br>
+
 <div class="definitions" style="border:2px solid black;">
     <h3><center><u><b>Definitions</b></u></center></h3>
     <ul>
@@ -79,7 +85,7 @@ layout: default
         <li><u><a href="{{ site.url }}{{ site.baseurl }}/threat_actors">APT(Advanced persistent threat)</a></u> -  An adversary targeting a network with the capability and resources to develop advanced tools used to thwart security controls and the time, money, and personnel to maintain a presence on said network.</li>
         {% for theme in site.categories.themes %}
             {% if theme.enabled == true %}
-                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u> - {{ theme.description }}</li>
+                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u></li>
             {% endif %}
         {% endfor %}
     </ul>

@@ -32,6 +32,11 @@ permalink: 'techniques/delivery/poisoned_torrents'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * `[<Source name>](<Source link>)`

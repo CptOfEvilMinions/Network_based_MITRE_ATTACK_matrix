@@ -33,6 +33,11 @@ permalink: 'techniques/masquerade/certificate_impersonation'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Abuse.ch SHA1 blacklist](https://sslbl.abuse.ch/blacklist/)

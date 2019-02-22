@@ -33,6 +33,11 @@ Avenues for stopping HTTP floods include the use of a web application firewall (
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [What is an HTTP flood DDoS attack?](https://www.cloudflare.com/learning/ddos/http-flood-ddos-attack/)

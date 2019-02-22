@@ -34,6 +34,11 @@ Third parties may need access to data on your network. Your team should have an 
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Ensuring Network Security When Working with Third Party Vendors: Part 2 of 2](https://www.algosec.com/blog/ensuring-network-security-working-third-party-vendors-part-2-2/)

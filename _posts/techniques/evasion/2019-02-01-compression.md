@@ -31,6 +31,11 @@ permalink: 'techniques/evasion/compression'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Data compression](https://searchstorage.techtarget.com/definition/compression)

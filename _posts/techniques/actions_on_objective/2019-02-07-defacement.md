@@ -36,6 +36,11 @@ permalink: 'techniques/actions_on_objective/defacement'
 
 `<Toolkit instructions, if applicable>`
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Website defacement](https://en.wikipedia.org/wiki/Website_defacement)

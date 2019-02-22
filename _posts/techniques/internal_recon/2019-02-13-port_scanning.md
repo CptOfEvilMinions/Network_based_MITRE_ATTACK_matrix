@@ -70,6 +70,11 @@ The following table was built based on our testing
 
 ## Toolkit
 
+## Similar techniques
+
+{% include list_techniques.html %}
+
+
 ## Resources/Sources
 
 * [Network Enumeration](https://www.techopedia.com/definition/25405/network-enumeration)
