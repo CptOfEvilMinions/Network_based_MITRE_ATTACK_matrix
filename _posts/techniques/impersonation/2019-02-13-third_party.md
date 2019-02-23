@@ -3,12 +3,12 @@ layout: post
 enabled: true
 title: 'Trusted third party'
 category: techniques
-theme: 'Masquerade'
+theme: 'Impersonation'
 Id: 39
 description: 'Attackers may compromise a subsidiary organization before moving into the parent organization.'
 prevention: false
 detection: true
-permalink: 'techniques/masquerade/trusted_third_parth'
+permalink: 'techniques/Impersonation/trusted_third_parth'
 ---
 {{ page. description }}
 

@@ -3,12 +3,12 @@ layout: post
 enabled: true
 title: 'Domain spoofing'
 category: techniques
-theme: Masquerade
+theme: Impersonation
 Id: 28
 description: 'Domain Spoofing a common form of phishing, occurs when an attacker appears to use a company’s domain to impersonate a company or one of its employees.'
 prevention: true
 detection: true
-permalink: 'techniques/masquerade/domain_spoofing'
+permalink: 'techniques/Impersonation/domain_spoofing'
 ---
 {{ page. description }}
 

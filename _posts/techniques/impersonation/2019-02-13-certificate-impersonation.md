@@ -3,12 +3,12 @@ layout: post
 enabled: true
 title: 'Certificate impersonation'
 category: techniques
-theme: 'Masquerade'
+theme: 'Impersonation'
 Id: 41
 description: 'In order to avoid detection, attackers may generates self-signed SSL certificates before the attack, indicating the names of popular brands in the fields, instead of filling them out randomly.'
 prevention: false
 detection: true
-permalink: 'techniques/masquerade/certificate_impersonation'
+permalink: 'techniques/Impersonation/certificate_impersonation'
 ---
 {{ page. description }}
 
