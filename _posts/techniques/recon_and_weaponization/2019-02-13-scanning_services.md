@@ -1,7 +1,7 @@
 ---
 layout: post
 enabled: true
-title: 'Scanning services'
+title: 'Public scanning services'
 category: techniques
 theme: 'Recon and weaponization'
 Id: 38

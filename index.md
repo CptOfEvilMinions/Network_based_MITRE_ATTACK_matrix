@@ -71,12 +71,25 @@ layout: default
 <h2><u><center>This matrix vs. MITRE ATT&CK</center></u></h2>
 <div class="abstract_textbox">
     <p>
-        At the current time of this project, the <a href="https://attack.mitre.org/">MITRE ATT&CK matrix</a> is targeted at host based detection and mitigation. The deliverable from this project is a MITRE ATT&CK like matrix for network-based threat hunting. In the current landscape of security, we need to monitor endpoints and network traffic. This matrix is a collection of tehcniques to hunt for on the network with potential mitigations and detections.
+        At the current time of this project, the <a href="https://attack.mitre.org/">MITRE ATT&CK matrix</a> is targeted at host-based detection and mitigation. The deliverable from this project is a MITRE ATT&CK like matrix for network-based threat hunting. In the current landscape of security, we need to monitor endpoints and network traffic. This matrix is a collection of techniques to hunt for on the network with potential mitigations and detections.
+    </p>
+</div>
+
+<h2><u><center>Attack themes</center></u></h2>
+<div class="abstract_textbox">
+    <p>
+        The attack themes(column headings) are a combination of the Bryant Kill Chain and themes that have emerged from the literature review. The Bryant Kill Chain was selected over the Lockheed Martin Cyber Kill Chain and the FireEye Attack Like Cycle because the phases are network focused. The Bryant Kill Chain is an evolution of the Cyber Kill Chain and the Attack Life cycle but from a network perspective. 
+    </p>
+</div>
+
+<h2><u><center>Curation of techniques</center></u></h2>
+<div class="abstract_textbox">
+    <p>
+        All the current techniques on the matrix exist because an APT report(s) referenced it. These APT reports were gathered from a series of public Github repositories to create an archive of reports.
     </p>
 </div>
 
 <br>
-
 <div class="definitions" style="border:2px solid black;">
     <h3><center><u><b>Definitions</b></u></center></h3>
     <ul>
