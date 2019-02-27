@@ -80,6 +80,28 @@ layout: default
     <p>
         The attack themes(column headings) are a combination of the Bryant Kill Chain and themes that have emerged from the literature review. The Bryant Kill Chain was selected over the Lockheed Martin Cyber Kill Chain and the FireEye Attack Like Cycle because not all the phases are network focused. The Bryant Kill Chain is an evolution of the Cyber Kill Chain and the Attack Life cycle but from a network perspective. 
     </p>
+    <div style="padding-left: 10%;">
+    <div style="float: left; width: 50%;">
+        <h3>Bryant Kill Chain phases</h3>
+        <ul>
+        {% for theme in site.categories.themes %}
+            {% if theme.enabled == true and theme.bryant_kill_chain == true %}
+                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    <div style="float: right; width: 50%;">
+        <h3>Lit review themes</h3>
+        <ul>
+        {% for theme in site.categories.themes %}
+            {% if theme.enabled == true and theme.bryant_kill_chain == false %}
+                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    </div>
 </div>
 
 <h2><u><center>Curation of techniques</center></u></h2>
@@ -96,11 +118,6 @@ layout: default
         <li><u><a href="{{ site.url }}{{ site.baseurl }}/themes">Attack themes</a></u> - Contains a grouping of adversary techniques to describe attacker activity on a network.</li>
         <li><u><a href="{{ site.url }}{{ site.baseurl }}/techniques">Techniques</a></u> - Method of achieving a results during an attack.</li>
         <li><u><a href="{{ site.url }}{{ site.baseurl }}/threat_actors">APT(Advanced persistent threat)</a></u> -  An adversary targeting a network with the capability and resources to develop advanced tools used to thwart security controls and the time, money, and personnel to maintain a presence on said network.</li>
-        {% for theme in site.categories.themes %}
-            {% if theme.enabled == true %}
-                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u></li>
-            {% endif %}
-        {% endfor %}
     </ul>
 </div>
 
