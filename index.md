@@ -5,11 +5,12 @@
 layout: default
 ---
 
+<!-- Table key -->
 <div class="key">
     <div id="keyItem" class="attack_theme_square"></div>
-    Attack themes
+    Attack themes (Column headings)
     <div id="keyItem" class="technique_square"></div>
-    Techniques
+    Techniques (Cells)
     <div id="keyItem">
         <object class="symbol Prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
             <img src="yourfallback.jpg" /> 
@@ -23,64 +24,43 @@ layout: default
     </div>
     Detection
 </div>
-<br>
 
-<style>
+<!-- Include style sheet for Tooltips -->
+<link rel="stylesheet" href="style/tool_tip.css">
 
-a.tip {
-    border-bottom: 1px dashed;
-    text-decoration: none
-}
-a.tip:hover {
-    
-    position: relative
-}
-a.tip span {
-    display: none;
-}
-a.tip:hover span {
-
-    border: #c0c0c0 1px dotted;
-    padding: 5px 20px 5px 5px;
-    display: block;
-    z-index: 100;
-    background: #000000 no-repeat 100% 5%;
-    color: white;
-    left: 0px;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    width: 350px;
-    position: absolute;
-    top: 10px;
-    text-decoration: none
-}
-
-</style>
-
+<!-- Matrix -->
 <div class="flexbox">
 {% for theme in site.categories.themes %}
+    <!-- Only use theme if its enabled -->
     {% if theme.enabled == true %}
+    <!-- Generate table by columns NOT rows -->
     <div class="col">
+        <!-- Column heading with theme name -->
         <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}" class="tip">
-            
             <p class="theme">{{ theme.title }}</p>
+            <!-- Tooltip description for theme -->
             <span>{{ theme.description }}</span>
         </a>
+        <!-- Add techniques to column-->
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
             <a class="technique tip" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}" >{{ technique.title }}
             <br>
+            <!-- Add technique and detection icons to technique -->
+            <!-- Prevention icon -->
             {% if technique.prevention %}
-            <object class="symbol prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
-                <img src="yourfallback.jpg" /> 
-                </object>
-            {% endif %}
+                <object class="symbol prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
+                    <img src="yourfallback.jpg" /> 
+                    </object>
+                {% endif %}
+            <!-- Detection icon -->
             {% if technique.detection %}
-            <object class="symbol prevention" data="{{site.baseurl}}/assets/images/detection.svg" type="image/svg+xml">
-                <img src="yourfallback.jpg" /> 
-                </object>
+                <object class="symbol prevention" data="{{site.baseurl}}/assets/images/detection.svg" type="image/svg+xml">
+                    <img src="yourfallback.jpg" /> 
+                    </object>
             {% endif %}
+            <!-- Tooltip description for technique -->
             <span>{{ technique.description }}</span>
             </a>
             {% endif %}
@@ -141,14 +121,18 @@ a.tip:hover span {
     </div>
 </div>
 
-<h2><u><center>Curation of techniques</center></u></h2>
+<h2><u><center>Aggregating techniques</center></u></h2>
 <div class="abstract_textbox">
     <p>
         All the current techniques on the matrix exist because an APT report(s) referenced it. These APT reports were gathered from a series of public Github repositories to create an archive of reports.
+        <ul>
+            <li><u><a href="https://github.com/CyberMonitor APT_CyberCriminal_Campagin_Collections">CyberMonitor/APT_CyberCriminal_Campagin_Collections</a></u></li>
+            <li><u><a href="https://github.com/kbandla/APTnotes">kbandla/APTnotes</a></u></li>
+        </ul>
     </p>
 </div>
-
 <br>
+
 <div class="definitions" style="border:2px solid black;">
     <h3><center><u><b>Definitions</b></u></center></h3>
     <ul>

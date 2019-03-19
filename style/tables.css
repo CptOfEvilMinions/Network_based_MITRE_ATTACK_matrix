@@ -74,6 +74,7 @@ table, caption, thead, tbody, td, tr {
     display: flex;
 }
 #keyItem {
+    margin-bottom: 15px;
     margin-right: 10px;
     margin-left: 10px;
 }
