@@ -25,21 +25,51 @@ layout: default
 </div>
 <br>
 
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip(); 
-});
-</script>
+<style>
+
+a.tip {
+    border-bottom: 1px dashed;
+    text-decoration: none
+}
+a.tip:hover {
+    
+    position: relative
+}
+a.tip span {
+    display: none
+}
+a.tip:hover span {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #f0f0f0 no-repeat 100% 5%;
+    color: black;
+    left: 0px;
+    
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
+}
+
+</style>
 
 <div class="flexbox">
 {% for theme in site.categories.themes %}
     {% if theme.enabled == true %}
     <div class="col">
-        <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}" data-toggle="tooltip" title="{{ theme.description }}"><p class="theme">{{ theme.title }}</p></a>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}" class="tip">
+            
+            <p class="theme">{{ theme.title }}</p>
+            <span>{{ theme.description }}</span>
+        </a>
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
-            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}" data-toggle="tooltip" title="{{ technique.description }}">{{ technique.title }}
+            <a class="technique tip" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}" >{{ technique.title }}
             <br>
             {% if technique.prevention %}
             <object class="symbol prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
@@ -51,6 +81,7 @@ $(document).ready(function(){
                 <img src="yourfallback.jpg" /> 
                 </object>
             {% endif %}
+            <span>{{ technique.description }}</span>
             </a>
             {% endif %}
         {% endfor %}
