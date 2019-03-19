@@ -5,7 +5,7 @@ title: Public services
 category: techniques
 theme: Evasion
 Id: 18
-description: 'The malware communicates with a public service such as Google or Dropbox. These services can be used for the staging of malware or C2 communication.'
+description: 'The malware may communicate with public services such as Google or Dropbox. These services can be used for the staging of malware or C2 communication.'
 prevention: false
 detection: false
 permalink: 'techniques/evasion/public_services'

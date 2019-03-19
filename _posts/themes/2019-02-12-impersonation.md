@@ -9,7 +9,7 @@ permalink: 'themes/impersonation'
 ---
 {{ page.description }}
 
-A Impersonation may be attempted through the use of stolen logon IDs and passwords, through finding security gaps in programs, or through bypassing the authentication mechanism. The attempt may come from within an organization, for example, from an employee; or from an outside user through some connection to the public network. Weak authentication provides one of the easiest points of entry for a Impersonation, since it makes it much easier for an attacker to gain access. 
+Impersonation may be attempted through the use of stolen login IDs and passwords, through finding security gaps in programs, or through bypassing the authentication mechanism. The attempt may come from within an organization, for example, from an employee;or from an outside user through some connection to the public network. Weak authentication provides one of the easiest points of entry since it makes it much easier for an attacker to gain access. 
 
 Once the attacker has been authorized for entry, they may have full access to the organization's critical data, and (depending on the privilege level they pretend to have) may be able to modify and delete software and data, and make changes to network configuration and routing information.
 

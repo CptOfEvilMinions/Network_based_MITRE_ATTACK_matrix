@@ -8,7 +8,7 @@ Id: 39
 description: 'Attackers may compromise a subsidiary organization before moving into the parent organization.'
 prevention: false
 detection: true
-permalink: 'techniques/Impersonation/trusted_third_parth'
+permalink: 'techniques/Impersonation/trusted_third_party'
 ---
 {{ page. description }}
 

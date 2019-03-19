@@ -9,7 +9,7 @@ permalink: 'themes/command_and_control'
 ---
 {{ page.description }}
 
-## Well known techneqiues
+## Well known techniques
 
 * HTTP
 * DNS

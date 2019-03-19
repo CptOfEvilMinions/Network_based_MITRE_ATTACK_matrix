@@ -33,7 +33,7 @@ permalink: 'techniques/evasion/custom_obfuscation'
 
 ## Detections
 
-During the encryption handshake in protocols like TLS, SSL, and SSH look for encryption suites and ciphers that are new to the enviornment.
+During the encryption handshake in protocols like TLS, SSL, and SSH look for encryption suites and ciphers that are new to the environment.
 
 ## Toolkit
 

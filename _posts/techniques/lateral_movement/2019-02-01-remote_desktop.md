@@ -5,7 +5,7 @@ title: 'Remote Desktop'
 category: techniques
 theme: 'Lateral movement'
 Id: 23
-description: 'Attackers will use valid credentials to move laterally in environment by utilizing remote desktop.'
+description: 'Attackers will use valid credentials to move laterally in the environment by utilizing remote desktop.'
 prevention: false
 detection: false
 permalink: 'techniques/lateral_movement/remote_desktop'

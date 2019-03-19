@@ -22,7 +22,9 @@
                 <td markdown="span">
                     {%- for source in tmp.sources -%}
                         {%- assign source1 = source | split:'/' -%}
-                        <a href="{{ source }}">{{ source1[-1] }}</a><br>
+                        <a href="{{ source }}">{{ source1[-1] }}</a>
+                        <br>
+                        <br>
                     {%- endfor -%}
                 </td>
             </tr>

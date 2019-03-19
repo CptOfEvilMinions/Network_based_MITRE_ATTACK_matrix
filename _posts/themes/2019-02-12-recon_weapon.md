@@ -21,7 +21,7 @@ permalink: 'themes/recon_and_weaponization'
 ## Categories
 
 
-## Well known techneqiues
+## Well known techniques
 
 
 ## Matrix techniques

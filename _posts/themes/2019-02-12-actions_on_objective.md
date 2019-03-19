@@ -4,7 +4,7 @@ enabled: true
 title: "Actions on objective"
 category: themes
 bryant_kill_chain: true
-description: The actions and objectives of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction.
+description: "The actions and objectives of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction."
 permalink: 'themes/actions_on_objective'
 ---
 {{ page.description }}
