@@ -17,26 +17,25 @@ permalink: 'techniques/internal_recon/port_scanning'
 ![TCP handshake](/assets/images/tcp-handshake.png)
 
 * ACK Scan - sends TCP packets with only the ACK flag set. This scan may get two outcomes as a result:
-  * a RST packet (the port is closed or open).
+  * RST packet (the port is closed or open).
 
 * SYN Scan(Stealth scan) - sends TCP packets with only the SYN flag set. This scan may get two outcomes as a result:
-  * a TCP packet with SYN + ACK flags set (the port is open)
-  * a RST packet (the port is closed. This scan starts a normal TCP session - but it does not finish the TCP session establishment with an ACK: it is only half finished.
+  * TCP packet with SYN + ACK flags set (the port is open)
+  * RST packet (the port is closed. This scan starts a normal TCP session - but it does not finish the TCP session establishment with an ACK: it is only half finished.
 
 * TCP Connect Scan - scan is a the odd scan in this collection of scans. A TCP Scan use the connect () system call against its victim. TCP Connect Scan do not use TCP flags. This kind of scan is often recognized and logged by servers.
 
 * NULL Scan - sends TCP packets with no flag set. This scan may get two outcomes as a result:
   * no response (the port is open)
-  * a RST packet (the port is closed).
+  * RST packet (the port is closed).
 
 * FIN Scan - sends TCP packets with only the FIN flag set. This scan may get two outcomes as a result:
   * no response (the port is open)
-  * a RST (the port is closed).
+  * RST (the port is closed).
 
-* XMAS Scan - sends TCP packets with FIN, PSH and URG flags set (lighting the packet up like a Christmas three). This
-scan may get two outcomes as a result:
+* XMAS Scan - sends TCP packets with FIN, PSH and URG flags set (lighting the packet up like a Christmas three). This scan may get two outcomes as a result:
   * no response (the port is open)
-  * a RST (the port is closed).
+  * RST (the port is closed).
 
 ## Malware/Threat actors
 

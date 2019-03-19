@@ -3,12 +3,12 @@ layout: post
 enabled: true
 title: VPN tunneling
 category: techniques
-theme: Masquerade
+theme: Impersonation
 Id: 34
-description: 'Adversary reduces their footprint by using credentials to directly connect to the network and masquerade as VPN users instead of relying on the RAT.'
+description: 'An adversary can reduce their footprint by using credentials to directly connect to the network as a legitimate user, instead of relying on the RAT.'
 prevention: false
 detection: true
-permalink: 'techniques/masquerade/vpn_tunneling'
+permalink: 'techniques/Impersonation/vpn_tunneling'
 ---
 {{ page. description }}
 

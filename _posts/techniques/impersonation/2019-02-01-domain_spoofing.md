@@ -3,12 +3,12 @@ layout: post
 enabled: true
 title: 'Domain spoofing'
 category: techniques
-theme: Masquerade
+theme: Impersonation
 Id: 28
-description: 'Domain Spoofing a common form of phishing, occurs when an attacker appears to use a company’s domain to impersonate a company or one of its employees.'
+description: "Domain Spoofing is a form of phishing, that occurs when an attacker appears to use a company’s domain to impersonate a company or one of its employees."
 prevention: true
 detection: true
-permalink: 'techniques/masquerade/domain_spoofing'
+permalink: 'techniques/Impersonation/domain_spoofing'
 ---
 {{ page. description }}
 
@@ -27,8 +27,8 @@ This can be done by sending emails with false domain names which appear legitima
 
 ## Detections
 
-* Monitor DNS queries in the environment. If the base domain of the query does not exist in Alexa's top million try:
-  * Do a `WHOIS` lookup on the domain to see when the domain was registered. If the domain is less than 30 days old then the probability is higher that it is malicious.
+* Monitor DNS queries in the environment. If the base domain of the query does not exist in Alexa's top million attempt to:
+  * Do a `WHOIS` lookup on the domain to see when the domain was registered. If the domain is less than 30 days old then there is a grater likelihood it is malicious..
   * Apply an algorithm to detect how similar the base domain in the query is to your organization's domain or a domain in Alexa's top million. Attackers will register domains that look similar to your domain but may have two letters swapped.
 * If your environment has a baseline of the domains visited you can detect new domains.
 

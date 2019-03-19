@@ -12,7 +12,7 @@ permalink: 'techniques/initial_compromise/malicious_stager'
 ---
 {{ page. description }}
 
-Stagers may be malicious pieces of code inserted into documents to weaponize them. Detection of stagers can be challenging because the code is small and appears benign. However, the stager will instruct the computer to make an external call to download a malicious piece of code and execute. Applications such as Microsoft Word, Powershell, Adobe, and etc will may make an HTTP request with an application specific user-agent.
+Stagers may be malicious pieces of code inserted into documents to weaponize them. Detection of stagers can be challenging because the code is small and appears benign. However, the stager will instruct the computer to make an external call to download a malicious piece of code and execute. Applications such as Microsoft Word, Powershell, Adobe, and etc may make an HTTP request with an application specific user-agent.
 
 ## Targeted applications
 

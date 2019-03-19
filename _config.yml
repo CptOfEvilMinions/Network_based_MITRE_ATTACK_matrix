@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Network based threat hunting matrix
+title: Network-based threat hunting matrix
 email: bdb6115@rit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The deliverable from this project is a MITRE ATT&CK like matrix for network-based threat hunting. 
+  In the current landscape of security, we need to monitor endpoints and network traffic. 
+  This matrix is a collection of techniques to hunt for on the network with potential mitigations and detections.
 
 baseurl: /Network_based_MITRE_ATTACK_matrix
 url: https://cptofevilminions.github.io

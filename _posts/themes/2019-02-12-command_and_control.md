@@ -3,12 +3,13 @@ layout: post
 enabled: true
 title: "Command and control"
 category: themes
+bryant_kill_chain: false
 description: "A command and control (C&C) Server is a computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network."
 permalink: 'themes/command_and_control'
 ---
 {{ page.description }}
 
-## Well known techneqiues
+## Well known techniques
 
 * HTTP
 * DNS
