@@ -36,20 +36,20 @@ a.tip:hover {
     position: relative
 }
 a.tip span {
-    display: none
+    display: none;
 }
 a.tip:hover span {
+
     border: #c0c0c0 1px dotted;
     padding: 5px 20px 5px 5px;
     display: block;
     z-index: 100;
-    background: #f0f0f0 no-repeat 100% 5%;
-    color: black;
+    background: #000000 no-repeat 100% 5%;
+    color: white;
     left: 0px;
-    
     margin-left: 100px;
     margin-bottom: 10px;
-    width: 250px;
+    width: 350px;
     position: absolute;
     top: 10px;
     text-decoration: none
