@@ -25,15 +25,21 @@ layout: default
 </div>
 <br>
 
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
 <div class="flexbox">
 {% for theme in site.categories.themes %}
     {% if theme.enabled == true %}
     <div class="col">
-        <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}"><p class="theme">{{ theme.title }}</p></a>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}" data-toggle="tooltip" title="{{ theme.description }}"><p class="theme">{{ theme.title }}</p></a>
         <div class="techniques">
         {% for technique in site.categories.techniques %}
             {% if technique.enabled == true and technique.theme == theme.title %}
-            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}">{{ technique.title }}
+            <a class="technique" href="{{ site.url }}{{ site.baseurl }}/{{ technique.permalink }}" data-toggle="tooltip" title="{{ technique.description }}">{{ technique.title }}
             <br>
             {% if technique.prevention %}
             <object class="symbol prevention" data="{{site.baseurl}}/assets/images/prevention.svg" type="image/svg+xml">
