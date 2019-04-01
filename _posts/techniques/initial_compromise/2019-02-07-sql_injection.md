@@ -23,11 +23,14 @@ permalink: 'techniques/initial_compromise/sql_injection'
 
 ## Preventions
 
-`<Mitigation techniques>`
+* [Prepared statements](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md)
+* Use of Prepared Statements (with Parameterized Queries)
+* Use of Stored Procedures
+* White List Input Validation
+* Escaping All User Supplied Input
 
 ## Detections
-
-* HTTP POST requests including common SQL injections like:`1' or '1' = '1, 1' or '1' = '1`
+* HTTP POST requests may include common SQL injections like:`1' or '1' = '1, 1' or '1' = '1`
 
 ## Toolkit
 
@@ -41,3 +44,4 @@ permalink: 'techniques/initial_compromise/sql_injection'
 ## Resources/Sources
 
 * [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)
+* [OWASP - SQL injection](https://www.owasp.org/index.php/SQL_Injection)
