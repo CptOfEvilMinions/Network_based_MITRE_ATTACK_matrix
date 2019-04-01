@@ -41,6 +41,6 @@ permalink: 'techniques/evasion/anonymous_services'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

@@ -34,7 +34,7 @@ One mitigation is to block the IP addresses of these scanners. Shodan provides a
 
 * First, you need a sensor monitoring the traffic in your DMZ. Next, with a tool like BRO analyze the `conn.log` file for source addresses that are known to be Shodan.
 * Use the Shodan service to determine what Shodan knows about your IP range, domain, and etc.
-* GreyNoise[https://greynoise.io/] can be used to confirm if a scan is a public scanner or not.
+* <a href="https://greynoise.io/">GreyNoise</a> can be used to confirm if a scan is a public scanner or not.
 
 ## Toolkit
 
@@ -45,6 +45,6 @@ One mitigation is to block the IP addresses of these scanners. Shodan provides a
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [How to block Shodan scanners](https://wiki.ipfire.org/configuration/firewall/blockshodan)

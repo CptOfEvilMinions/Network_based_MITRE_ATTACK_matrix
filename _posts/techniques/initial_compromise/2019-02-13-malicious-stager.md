@@ -5,7 +5,7 @@ title: 'Malicious stager'
 category: techniques
 theme: 'Initial compromise'
 Id: 40
-description: 'A stager is a small payload of instructing the computer to pull down the next phase of malicious code.'
+description: 'A stager is a small payload instructing the computer to pull down the next phase of malicious code.'
 prevention: true
 detection: true
 permalink: 'techniques/initial_compromise/malicious_stager'
@@ -45,6 +45,6 @@ Monitor the user-agent field in HTTP for applications like Microsoft Office, Pow
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

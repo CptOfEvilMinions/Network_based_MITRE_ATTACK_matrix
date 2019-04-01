@@ -21,6 +21,6 @@ Finally, in the case of destruction, an APT like the Stuxnet worm may seek to op
 ## Matrix techniques
 {% include list_techniques.html %}
 
-## Resources/Sources
+## References
 
 * [The Cyber Kill Chain Explained](https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf)

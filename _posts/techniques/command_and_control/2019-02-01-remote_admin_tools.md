@@ -40,6 +40,6 @@ permalink: 'techniques/commmand_and_control/remote_admin_tools'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Github - CyberMonitor/APT_CyberCriminal_Campagin_Collections](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections)

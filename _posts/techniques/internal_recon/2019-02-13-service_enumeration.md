@@ -37,6 +37,6 @@ permalink: 'techniques/internal_recon/service_enumeration'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Network Enumeration](https://www.techopedia.com/definition/25405/network-enumeration)

@@ -38,6 +38,6 @@ permalink: 'techniques/command_and_control/listening_service'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

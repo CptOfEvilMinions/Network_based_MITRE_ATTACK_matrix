@@ -12,6 +12,6 @@ permalink: 'themes/lateral_movement'
 ## Matrix techniques
 {% include list_techniques.html %}
 
-## Resources/Sources
+## References
 
 * [Attack Life Cycle](http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/)

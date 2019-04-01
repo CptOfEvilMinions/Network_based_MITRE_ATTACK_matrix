@@ -5,12 +5,14 @@ title: Compression
 category: techniques
 theme: Evasion
 Id: 13
-description: 'Compression is the act of reducing the number of bits needed to represent data. Attackers may use compression to obfuscate the data being transferred, bundle malware and tools, or a faster upload during exfiltration.'
+description: 'Compression is the act of reducing the number of bits needed to represent data.'
 prevention: false
 detection: false
 permalink: 'techniques/evasion/compression'
 ---
 {{ page. description }}
+
+Attackers may use compression to obfuscate the data being transferred, bundle malware and tools, or a faster upload during exfiltration.
 
 ## Malware/Threat actors
 
@@ -36,6 +38,6 @@ permalink: 'techniques/evasion/compression'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Data compression](https://searchstorage.techtarget.com/definition/compression)
