@@ -37,6 +37,6 @@ permalink: 'techniques/Impersonation/rdp_reverse_tunneling'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

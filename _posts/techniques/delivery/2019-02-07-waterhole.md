@@ -47,7 +47,7 @@ permalink: 'techniques/delivery/wateringhole'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Watering hole attack](https://searchsecurity.techtarget.com/definition/watering-hole-attack)
 * [Network Security and Watering Hole Attacks](https://www.lastline.com/blog/network-security-and-watering-hole-attacks/)

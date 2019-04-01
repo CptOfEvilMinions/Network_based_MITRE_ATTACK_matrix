@@ -45,6 +45,6 @@ Monitor the user-agent field in HTTP for applications like Microsoft Office, Pow
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

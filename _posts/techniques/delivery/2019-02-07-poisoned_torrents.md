@@ -39,6 +39,6 @@ This behavior is difficult to trace and track and is indiscriminate in its infec
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

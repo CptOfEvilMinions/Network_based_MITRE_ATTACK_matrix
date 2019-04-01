@@ -38,6 +38,6 @@ Once the attacker’s MAC address is connected to an authentic IP address, the a
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [ARP SPOOFING](https://www.veracode.com/security/arp-spoofing)

@@ -39,7 +39,7 @@ Third parties may need access to data on your network. Your team should have an 
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Ensuring Network Security When Working with Third Party Vendors: Part 2 of 2](https://www.algosec.com/blog/ensuring-network-security-working-third-party-vendors-part-2-2/)
 * [Third parties leave your network open to attacks](https://www.networkworld.com/article/3194832/security/third-parties-leave-your-network-open-to-attacks.html)

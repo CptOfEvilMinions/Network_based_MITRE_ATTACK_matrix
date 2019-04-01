@@ -43,6 +43,6 @@ These are typically the work of defacers, who break into a web server and replac
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Website defacement](https://en.wikipedia.org/wiki/Website_defacement)

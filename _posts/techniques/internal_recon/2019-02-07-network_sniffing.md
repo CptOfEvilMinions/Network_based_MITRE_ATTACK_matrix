@@ -38,6 +38,6 @@ Sniffing is generally referred to as a “passive” type of attack, wherein the
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Cyber Security Attacks Network Sniffing](http://www.valencynetworks.com/articles/cyber-security-attacks-network-sniffing.html)

@@ -39,6 +39,6 @@ permalink: 'techniques/Impersonation/certificate_impersonation'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Abuse.ch SHA1 blacklist](https://sslbl.abuse.ch/blacklist/)

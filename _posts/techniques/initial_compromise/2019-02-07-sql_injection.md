@@ -41,7 +41,7 @@ permalink: 'techniques/initial_compromise/sql_injection'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Common Types of Cybersecurity Attacks](https://www.rapid7.com/fundamentals/types-of-attacks/)
 * [OWASP - SQL injection](https://www.owasp.org/index.php/SQL_Injection)

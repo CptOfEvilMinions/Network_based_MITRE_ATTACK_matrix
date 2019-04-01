@@ -21,6 +21,6 @@ Once the attacker has been authorized for entry, they may have full access to th
 ## Matrix techniques
 {% include list_techniques.html %}
 
-## Resources/Sources
+## References
 
 * [SearchSecurity - Impersonation](https://searchsecurity.techtarget.com/definition/Impersonation)

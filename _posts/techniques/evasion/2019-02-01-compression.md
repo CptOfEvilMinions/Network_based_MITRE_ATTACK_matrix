@@ -38,6 +38,6 @@ Attackers may use compression to obfuscate the data being transferred, bundle ma
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Data compression](https://searchstorage.techtarget.com/definition/compression)

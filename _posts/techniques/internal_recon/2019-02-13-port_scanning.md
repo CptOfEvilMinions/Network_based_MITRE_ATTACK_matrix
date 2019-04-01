@@ -74,7 +74,7 @@ The following table was built based on our testing
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Network Enumeration](https://www.techopedia.com/definition/25405/network-enumeration)
 * [Bro - conn.log](https://docs.zeek.org/en/stable/scripts/base/protocols/conn/main.bro.html#type-Conn::Info)

@@ -17,6 +17,6 @@ permalink: 'themes/command_and_control'
 ## Matrix techniques
 {% include list_techniques.html %}
 
-## Resources/Sources
+## References
 
 * [Command and Control [C&C] Server](https://www.trendmicro.com/vinfo/us/security/definition/command-and-control-server)

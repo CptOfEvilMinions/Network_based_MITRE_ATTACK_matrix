@@ -44,6 +44,6 @@ During the encryption handshake in protocols like TLS, SSL, and SSH look for enc
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Github - CyberMonitor/APT_CyberCriminal_Campagin_Collections](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections)

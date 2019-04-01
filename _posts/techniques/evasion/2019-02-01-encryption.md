@@ -40,6 +40,6 @@ permalink: 'techniques/evasion/encryption'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

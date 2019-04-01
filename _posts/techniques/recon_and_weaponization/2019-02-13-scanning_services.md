@@ -45,6 +45,6 @@ One mitigation is to block the IP addresses of these scanners. Shodan provides a
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [How to block Shodan scanners](https://wiki.ipfire.org/configuration/firewall/blockshodan)

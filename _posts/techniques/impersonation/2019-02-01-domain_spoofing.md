@@ -42,7 +42,7 @@ This can be done by sending emails with false domain names which appear legitima
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * [Domain Spoofing](https://www.barracuda.com/glossary/domain-spoofing)
 * [Finding NEW Evil: Detecting New Domains with Splunk](https://www.splunk.com/blog/2018/01/17/finding-new-evil-detecting-new-domains-with-splunk.html)

@@ -38,6 +38,6 @@ permalink: 'techniques/lateral_movement/remote_desktop'
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`

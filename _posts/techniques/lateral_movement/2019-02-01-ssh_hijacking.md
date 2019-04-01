@@ -44,6 +44,6 @@ Use of SSH may be legitimate, depending upon the network environment and how it 
 {% include list_techniques.html %}
 
 
-## Resources/Sources
+## References
 
 * `[<Source name>](<Source link>)`
