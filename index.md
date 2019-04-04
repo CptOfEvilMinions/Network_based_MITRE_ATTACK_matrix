@@ -123,7 +123,7 @@ layout: default
 <h2><u><center>Attack themes</center></u></h2>
 <div class="abstract_textbox">
     <p>
-        The attack themes(column headings) are a combination of the Bryant Kill Chain and themes that have emerged from the literature review. The Bryant Kill Chain was selected over the Lockheed Martin Cyber Kill Chain and the FireEye Attack Life Cycle because not all the phases are network-focused. The Bryant Kill Chain is an evolution of the Cyber Kill Chain and the Attack Life cycle but from a network perspective. 
+        The attack themes are a combination of the Bryant Kill Chain and themes that have emerged from the literature review. The Lockheed Martin Cyber Kill Chain and the Mandiant Attack Life Cycle were not chosen as attack models because they contain phases that happen on the host. For this reason, the Bryant Kill Chain was selected because it is an evolution of the LockHeed Martin Cyber Kill Chain and the Mandiant Attack Life cycle but from a network perspective.
     </p>
     <div style="padding-left: 10%;">
     <div style="float: left; width: 50%;">
