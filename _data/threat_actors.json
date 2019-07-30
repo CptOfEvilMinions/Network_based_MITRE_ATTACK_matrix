@@ -78,7 +78,8 @@
         "description": "Duqu's primary purpose is to provide an attacker with remote access to a com- promised computer, including the ability to run arbitrary programs. It can theoretically be used to target any organization",
         "years": "2010",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2011/2011.10.26.Duqu/Duqu_Trojan_Questions_and_Answers.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2011/2011.10.26.Duqu/Duqu_Trojan_Questions_and_Answers.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.06.10.The_Mystery_of_Duqu_2_0/The_Mystery_of_Duqu_2_0_a_sophisticated_cyberespionage_actor_returns.pdf"
         ]
     },
     "Turbo": {
@@ -102,7 +103,8 @@
         "description": "The purpose of this malware seems predominantly to be a platform for surveillance against targets of national security interest (such as Pakistan), but we will also show how it has been used for industrial espionage against the Norwegian telecom corporation Telenor and other civilian corporations.",
         "years": "2015-2016",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/2013.05.20.Operation_Hangover/NS-Unveiling-an-Indian-Cyberattack-Infrastructure_FINAL_Web.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/2013.05.20.Operation_Hangover/NS-Unveiling-an-Indian-Cyberattack-Infrastructure_FINAL_Web.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/2013.05.20.Operation_Hangover/Unveiling%20an%20Indian%20Cyberattack%20Infrastructure%20-%20appendixes.pdf"
         ]
     },
     "SIDEWINDER": {
@@ -209,7 +211,8 @@
         "years": "2014",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.02.10.CrowdStrike_GlobalThreatIntelReport_2014/GlobalThreatIntelReport.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.07.28.China_Espionage_Dynasty/ICIT-Brief-China-Espionage-Dynasty.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2019/2019.06.12.Threat_Group_Cards/Threat%20Group%20Cards.pdf"
         ]
     },
     "Dukes": {
@@ -233,7 +236,8 @@
         "description": "The Stuxnet worm covertly attempts to identify and exploit equipment that controls a nation’s critical infrastructure. A successful attack by a software application such as the Stuxnet worm could result in manipulation of control system code to the point of inoperability or long-term damage. Should such an incident occur, recovery from the damage to the computer systems programmed to monitor and manage a facility and the physical equipment producing goods or services could be significantly delayed. Depending on the severity of the attack, the interconnected nature of the affected critical infrastructure facilities, and government preparation and response plans, entities and individuals relying on these facilities could be without life sustaining or comforting services for a long period of time. The resulting damage to the nation’s critical infrastructure could threaten many aspects of life, including the government’s ability to safeguard national security interests.",
         "years": "2008",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.12.09.Stuxnet_Worm/R41524.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.09.30.W32.Stuxnet_Dossier/w32_stuxnet_dossier.pdf"
         ]
     },
     "Naikon": {
@@ -249,7 +253,8 @@
         "description": "The Lazarus Group appears to have resources that allow for development of custom malware tools for extensive, targeted, and coordinated attacks, including long periods of reconnaissance. The Lazarus Group has also displayed the technical capability and will to perform destructive attacks against targets.",
         "years": "2011-2014",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-Report.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.24.Operation_Blockbuster/Operation-Blockbuster-RAT-and-Staging-Report.pdf"
         ]
     },
     "BlackEnergy": {
@@ -274,6 +279,127 @@
         "years": "2016-2017",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.11.MoneyTaker/Group-IB_MoneyTaker_report.pdf"
+        ]
+    },
+    "XSLCmd": {
+        "type": "malware",
+        "description": "FireEye Labs recently discovered a previously unknown variant of the APT backdoor XSLCmd – OSX.XSLCmd – which is designed to compromise Apple OS X systems. This backdoor shares a significant portion of its code with the Windows- based version of the XSLCmd backdoor that has been around since at least 2009.",
+        "years": "2009-2012",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/XSLCmd_OSX.pdf"
+        ]
+    },
+    "Pitty Tiger": {
+        "type": "threat actor",
+        "description": "Pitty Tiger is a group of attackers that have been active since at least 2011. They have targeted private companies in several sectors, such as defense and telecommunications, but also at least one government.",
+        "years": "2011-2014",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.07.11.Pitty_Tiger/Pitty_Tiger_Final_Report.pdf"
+        ]
+    },
+    "Rocket Kitten": {
+        "type": "threat actor",
+        "description": "Since early 2014, an attacker group of Iranian origin has been actively targeting persons of interest by means of malware infection, supported by persistent spear phishing campaigns. This cyber-espionage group was dubbed ‘Rocket Kitten,’ and remains active as of this writing, with reported attacks as recent as October 2015.",
+        "years": "2014-2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.11.09.Rocket_Kitten_A_Campaign_With_9_Lives/rocket-kitten-report.pdf"
+        ]
+    },
+    "Copy Kittens": {
+        "type": "threat actor",
+        "description": "CopyKittens is a cyberespionage  group that has been operating since at least 2013. In November 2015, ClearSky and Minerva Labs published1 the first public report exposing its activity. In March 2017, ClearSky published a second report2 exposing further incidents, some of which impacted the German Bundestag. In this report, Trend Micro and ClearSky expose a vast espionage apparatus spanning the entire time the group has been active. It includes recent incidents as well as older ones that have not been publicly reported; new malware; exploitation, delivery and command and control infrastructure; and the group's modus operandi.",
+        "years": "2013-2017",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.07.27.Operation_Wilted_Tulip/Operation_Wilted_Tulip%20(1).pdf"
+        ]
+    },
+    "CARBANAK": {
+        "type": "threat actor",
+        "description": "Intrusions associated with the CARBANAK actors have been reported describing compromises of organizations within banking2, financial3, hospitality4, and restaurant verticals. However, they all describe a relatively equivalent progression, with only slight deviation in specific attacker actions. The intelligence surrounding recent CARBANAK incidents indicate that phishing attacks have been the group’s primary method of initial compromise. After gaining access to a user system, the attackers move laterally throughout the environment, conduct internal reconnaissance, establish staging points and internal network paths, harvest credentials, and move towards their intended target. However, this intrusion began with a significantly higher level of privilege due to the exploitation of the Apache Struts vulnerability CVE-2017-5638 that allowed the attackers to quickly gain administrative access within the client’s Linux environment. ",
+        "years": "2017",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.04.The_Shadows_of_Ghosts/paper_the-shadows-of-ghosts-carbanak-report.pdf"
+        ]
+    },
+    "TEMP.Demon": {
+        "type": "threat actor",
+        "description": "The attacker leveraged a web content management system vulnerability to install webshell variants such as DEVILZSHELL, ASPXSHELL, WEBSNIFF and TABLETOP on Internet-facing web servers. The attacker then used publicly available webshells to remotely execute code and elevate privileges on the compromised Windows servers. The attacker executed publicly available credential harvesting tools, such as Procdump, Mimikatz and SafetyKatz to obtain local and domain credentials, and laterally access additional systems in the targeted environment. Stolen domain credentials were used to rapidly deploy Cobalt Strike payloads to systems in the targeted environment. Cobalt Strike is threat emulation software often used by red teams and real-world attackers for its remote access trojan (RAT) and detection evasion capabilities.",
+        "years": "2018",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/Report/2019.03.04.M-Trends_2019/rpt-mtrends-2019.pdf"
+        ]
+    },
+    "APT10": {
+        "type": "threat actor",
+        "description": "APT10 is a Chinese cyber espionage group that FireEye has tracked since 2009. They have historically targeted construction and engineering, aerospace, and telecom firms, and governments in the United States, Europe, and Japan. We believe that the targeting of these industries has been in support of Chinese national security goals, including acquiring valuable military and intelligence information as well as the theft of confidential business data to support Chinese corporations.",
+        "years": "2018",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.04.06.Operation_Cloud_Hopper/cloud-hopper-report-final-v4.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.04.06.Operation_Cloud_Hopper/cloud-hopper-report-final-upda_72977.pdf"
+        ]
+    },
+    "Wiper": {
+        "type": "malware",
+        "description": "US-CERT was recently notified by a trusted third party of cyber threat actors using a Server Message Block (SMB) Worm Tool to conduct cyber exploitation activities recently targeting a major entertainment company. This SMB Worm Tool is equipped with a Listening Implant, Lightweight Backdoor, Proxy Tool, Destructive Hard Drive Tool, and Destructive Target Cleaning Tool.",
+        "years": "2014",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.12.19.Targeted_Destructive_Malware/TA14-353A_wiper.pdf"
+        ]
+    },
+    "Axiom": {
+        "type": "threat actor",
+        "description": "The Axiom group is a Chinese, potentially state-sponsored, threat actor that compromises systems that contain information of value to advancing China’s 12th Five Year Plan. Axiom was investigated in the October 2014 Operation SMN, a joint operation between private firms, led by Novetta which released information and led to the removal of Axiom malware from over 43,000 systems.",
+        "years": "2009-2014",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
+        ]
+    },
+    "PLA": {
+        "type": "threat actor",
+        "description": "The Chinese military, using increasingly networked forces capable of communicating across service arms and among all echelons of command, is pushing beyond its traditional missions focused on Taiwan and toward a more regional defense posture. This modernization effort, known as informationization, is guided by the doctrine of fighting “Local War Under Informationized Conditions,” which refers to the PLA’s ongoing effort to develop a fully networked architecture capable of coordinating military operations on land, in air, at sea, in space and across the electromagnetic spectrum.",
+        "years": "2002-2009",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/historical/2009/Cyber-030.pdf"
+        ]
+    },
+    "FIN5": {
+        "type": "threat actor",
+        "description": "FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely speak Russian.",
+        "years": "2008-2019",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2019/2019.06.12.Threat_Group_Cards/Threat%20Group%20Cards.pdf"
+        ]
+    },
+    "TA505": {
+        "type": "threat actor",
+        "description": "The sophisticated threat actor group dubbed ‘TA505’ are financially- motivated and have been attributed to high-volume malicious email campaigns since 2014 including the distribution of the ‘Dridex’ and ‘Shifu’ banking trojans as well as the Neutrino botnet/exploit kit and Locky ransomware.",
+        "years": "2014-2019",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2019/2019.04.24.TA505_Abusing_Legit_Remote_Admin_Tool/CyberInt_Legit%20Remote%20Access%20Tools%20Turn%20Into%20Threat%20Actors'%20Tools_Report.pdf"
+        ]
+    },
+    "Shell_Crew": {
+        "type": "threat actor",
+        "description": "Shell_Crew continues to be a formidable threat group that is actively attacking organizations. In instances where Shell_Crew has already breached an organization, it has observed that the adversary will aggressively attempt to regain a foothold once their Trojans have been eradicated and communication channels severed. If any of their existing backdoors or Web shells remain active in the environment, Shell_Crew will begin to redeploy other tiers of malware that communicate through different channels, which may use different protocols and obfuscation techniques.",
+        "years": "2005",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.01.21.Shell_Crew/h12756-wp-shell-crew.pdf"
+        ]
+    },
+    "BlackAtlas": {
+        "type": "threat actor",
+        "description": "Black Atlas’ current operations are somewhat successful as they have been able to compromise some interesting victims that, for them, are low-hanging fruits and are easy prey. Furthermore, we believe that this method of operation would continue, improve and may still be utilized in the future by other threat actor groups.",
+        "years": "2012-2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.12.16.Operation_Black_Atlas/Operation_Black%20Atlas_Technical_Brief.pdf"
+        ]
+    },
+    "Crouching Tiger": {
+        "type": "threat actor",
+        "description": "2010-2015",
+        "years": "These attacks are far from random or indiscriminate. These attacks are designed to steal information that will fulfil a clear set of requirements set by the Chinese state and furnish them with political, commercial and security/intelligence information. These requirements are carefully and clearly identified, shared with a number of government departments and constantly updated. There is evidence of worldwide targeting but only a minority of attacks are identified and fewer still made public.",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2012/2012.03.12.Crouching_Tiger/Crouching_tiger_hidden_dragon.pdf"
         ]
     },
     "template": {

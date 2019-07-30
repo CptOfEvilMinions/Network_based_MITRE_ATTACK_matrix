@@ -14,7 +14,7 @@ permalink: 'techniques/commmand_and_control/remote_admin_tools'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'TeamSpy' | split: ',' %}
+{% assign malwares = 'TeamSpy,PLA,Crouching Tiger' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

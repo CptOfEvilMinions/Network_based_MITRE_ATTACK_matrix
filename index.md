@@ -131,7 +131,7 @@ layout: default
         <ul>
         {% for theme in site.categories.themes %}
             {% if theme.enabled == true and theme.bryant_kill_chain == true %}
-                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }}</a></u></li>
+                <li><u><a href="{{ site.url }}{{ site.baseurl }}/{{ theme.permalink }}">{{ theme.title }} </a></u></li>
             {% endif %}
         {% endfor %}
         </ul>
