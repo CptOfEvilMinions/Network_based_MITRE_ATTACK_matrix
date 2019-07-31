@@ -22,7 +22,7 @@ Stagers may be malicious pieces of code inserted into documents to weaponize the
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'APT38' | split: ',' %}
+{% assign malwares = 'APT38,Wild Neutron' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

@@ -16,7 +16,7 @@ Sniffing is generally referred to as a “passive” type of attack, wherein the
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Operation Cleaver' | split: ',' %}
+{% assign malwares = 'Operation Cleaver,Regin' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

@@ -15,7 +15,7 @@ permalink: 'techniques/Impersonation/certificate_impersonation'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Group-IB' | split: ',' %}
+{% assign malwares = 'Group-IB,Wild Neutron' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

@@ -18,7 +18,7 @@ These are typically the work of defacers, who break into a web server and replac
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Operation Cleaver' | split: ',' %}
+{% assign malwares = 'Operation Cleaver,Syrian Electronic Army,Whois Hacking Team,Ajax Security Team,Flying Kitten,Gh0st Rat,Charming Kitten,APT28,Lazarus Group' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}
