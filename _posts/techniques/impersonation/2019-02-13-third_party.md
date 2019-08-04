@@ -17,7 +17,7 @@ Third parties may need access to data on your network. Your team should have an 
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'APT38' | split: ',' %}
+{% assign malwares = 'APT38,APT28,menuPass,APT10' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

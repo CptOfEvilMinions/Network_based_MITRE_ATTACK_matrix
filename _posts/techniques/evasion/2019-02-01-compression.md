@@ -16,7 +16,7 @@ Attackers may use compression to obfuscate the data being transferred, bundle ma
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Nettraveler,Jaku,Poison Ivy,Careto,Whois Hacking Team,Regin,APT32' | split: ',' %}
+{% assign malwares = 'Nettraveler,Jaku,Poison Ivy,Careto,Whois Hacking Team,Regin,APT32,BlackEnergy' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

@@ -15,7 +15,7 @@ permalink: 'techniques/internal_recon/service_enumeration'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Naikon' | split: ',' %}
+{% assign malwares = 'Naikon,APT10,TEMP.Demon' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

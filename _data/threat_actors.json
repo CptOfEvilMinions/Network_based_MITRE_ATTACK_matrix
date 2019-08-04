@@ -37,7 +37,8 @@
         "description": "The Icefog targeted attacks rely on spear-phishing e-mails that attempt to trick the victim into opening a malicious attachment or a website.",
         "years": "2013",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/icefog.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/icefog.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "Nettraveler":
@@ -70,7 +71,8 @@
         "description": "A powerful threat actor known as “Wild Neutron” (also known as “Jripbot” and “Morpho“) has been active since at least 2011, infecting high profile companies for several years by using a combination of exploits, watering holes and multi-platform malware.",
         "years": "2013-2015",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.08.Wild_Neutron/WildNeutron_Economic_espionage.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.08.Wild_Neutron/WildNeutron_Economic_espionage.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
         ]
     },
     "Duqu Trojan": {
@@ -79,7 +81,8 @@
         "years": "2010",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2011/2011.10.26.Duqu/Duqu_Trojan_Questions_and_Answers.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.06.10.The_Mystery_of_Duqu_2_0/The_Mystery_of_Duqu_2_0_a_sophisticated_cyberespionage_actor_returns.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.06.10.The_Mystery_of_Duqu_2_0/The_Mystery_of_Duqu_2_0_a_sophisticated_cyberespionage_actor_returns.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "Turbo": {
@@ -128,7 +131,8 @@
         "description": "The focus of the Operation Cleaver report is on one particular Iranian team we’ve dubbed Tarh Andishan, the infrastructure they utilize, as well as their tactics, techniques and procedures. Roughly translated, 'Tarh Andishan' means 'thinkers' or 'innovators'. This team displays an evolved skillset and uses a complex infrastructure to perform attacks of espionage, theft, and the potential destruction of control systems and networks. While our investigation is ongoing, and we presently have limited visibility inside many of the compromised networks, Cylance observed Tarh Andishan actively targeting, attacking, and compromising more than 50 victims since at least 2012.",
         "years": "2012-2013",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.12.02.Operation_Cleaver/Cylance_Operation_Cleaver_Report.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.12.02.Operation_Cleaver/Cylance_Operation_Cleaver_Report.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "Operation Dust Storm": {
@@ -154,7 +158,8 @@
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/The_Epic_Turla_Operation.pdf",
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/KL_Epic_Turla_Technical_Appendix_20140806.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/Turla_2_Penquin.pdf"
         ]
     },
     "Energetic Bear": {
@@ -253,7 +258,8 @@
         "years": "2013-2015",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.05.21.Naikon_APT/TheNaikonAPT-MsnMM1.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2019/2019.06.12.Threat_Group_Cards/Threat%20Group%20Cards.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2019/2019.06.12.Threat_Group_Cards/Threat%20Group%20Cards.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "Lazarus Group": {
@@ -273,7 +279,8 @@
         "years": "2015",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.11.03.Ukraine_Cybersecurity_Threat_Briefing/ukraine-report-when-the-lights-went-out.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.30.Operation-Potao-Express/Operation-Potao-Express_final_v2.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.07.30.Operation-Potao-Express/Operation-Potao-Express_final_v2.pdf",
+            "https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf"
         ]
     },
     "APT38": {
@@ -284,7 +291,7 @@
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.03.APT38/rpt-apt38-2018-web_v4.pdf"
         ]
     },
-    "c": {
+    "Group-IB": {
         "type": "< threat actor/malware >",
         "description": "In total Group-IB has confirmed at least 20 companies as victims of the MoneyTaker group, 16 of which are located in the US. The vast majority of them are small community banks, where hackers attacked card processing systems. The average damage from each successful attack was 500,000 USD baseline.",
         "years": "2016-2017",
@@ -331,7 +338,8 @@
         "description": "Intrusions associated with the CARBANAK actors have been reported describing compromises of organizations within banking2, financial3, hospitality4, and restaurant verticals. However, they all describe a relatively equivalent progression, with only slight deviation in specific attacker actions. The intelligence surrounding recent CARBANAK incidents indicate that phishing attacks have been the group’s primary method of initial compromise. After gaining access to a user system, the attackers move laterally throughout the environment, conduct internal reconnaissance, establish staging points and internal network paths, harvest credentials, and move towards their intended target. However, this intrusion began with a significantly higher level of privilege due to the exploitation of the Apache Struts vulnerability CVE-2017-5638 that allowed the attackers to quickly gain administrative access within the client’s Linux environment. ",
         "years": "2017",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.04.The_Shadows_of_Ghosts/paper_the-shadows-of-ghosts-carbanak-report.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.12.04.The_Shadows_of_Ghosts/paper_the-shadows-of-ghosts-carbanak-report.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "TEMP.Demon": {
@@ -365,7 +373,8 @@
         "description": "The Axiom group is a Chinese, potentially state-sponsored, threat actor that compromises systems that contain information of value to advancing China’s 12th Five Year Plan. Axiom was investigated in the October 2014 Operation SMN, a joint operation between private firms, led by Novetta which released information and led to the removal of Axiom malware from over 43,000 systems.",
         "years": "2009-2014",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf",
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/Group_72.pdf"
         ]
     },
     "PLA": {
@@ -397,7 +406,8 @@
         "description": "Shell_Crew continues to be a formidable threat group that is actively attacking organizations. In instances where Shell_Crew has already breached an organization, it has observed that the adversary will aggressively attempt to regain a foothold once their Trojans have been eradicated and communication channels severed. If any of their existing backdoors or Web shells remain active in the environment, Shell_Crew will begin to redeploy other tiers of malware that communicate through different channels, which may use different protocols and obfuscation techniques.",
         "years": "2005",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.01.21.Shell_Crew/h12756-wp-shell-crew.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.01.21.Shell_Crew/h12756-wp-shell-crew.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "BlackAtlas": {
@@ -423,7 +433,8 @@
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/regin-analysis.pdf",
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "SHADOWS IN THE CLOUD": {
@@ -502,7 +513,11 @@
         "years": "2008-2016",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2017/2017.01.11.apt28_at_the_center/APT28-Center-of-Storm-2017.pdf",
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2008/2008.08.10.Russian_Cyberwar_on_Georgia/CYBERWAR-fd_2_.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2008/2008.08.10.Russian_Cyberwar_on_Georgia/CYBERWAR-fd_2_.pdf",
+            "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+            "https://www.welivesecurity.com/2019/05/22/journey-zebrocy-land/",
+            "https://www.secureworks.com/research/threat-group-4127-targets-hillary-clinton-presidential-campaign",
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
         ]
     },
     "Poison Ivy": {
@@ -551,7 +566,9 @@
         "description": "Since at least 2014, APT32 has been targeting foreign corporations with a vested interest in Vietnam’s manufacturing, consumer products, and hospitality sectors. Furthermore, there are indications that APT32 actors are targeting peripheral network security and technology infrastructure corporations.",
         "years": "2014-2017",
         "sources": [
-            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.17.OceanLotus_SpyRATs/SpyRATsofOceanLotusMalwareWhitePaper.pdf"
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.17.OceanLotus_SpyRATs/SpyRATsofOceanLotusMalwareWhitePaper.pdf",
+            "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+            "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/"
         ]
     },
     "ProjectSauron": {
@@ -576,6 +593,110 @@
         "years": "2012-2014",
         "sources": [
             "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2015/2015.03.31.Volatile_Cedar/volatile-cedar-technical-report.pdf"
+        ]
+    },
+    "GreyEnergy": {
+        "type": "malware",
+        "description": "The malware, named GreyEnergy by ESET researchers, exhibits many conceptual similarities with BlackEnergy, the malware used in attacks against the Ukrainian energy industry in December 2015 Besides these similarities, there are links that suggest that the group behind GreyEnergy has been working together with the TeleBots group, known in connection with many destructive attacks",
+        "years": "2015-2017",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2018/2018.10.17.GreyEnergy/ESET_GreyEnergy.pdf"
+        ]
+    },
+    "OnionDuke": {
+        "type": "< threat actor/malware >",
+        "description": "In October 2014, Leviathan Security Group disclosed that a Russia based Tor exit node was attaching malware onto the files that passed through it by wrapping legitimate executables with the malware executable. The technique increased the attacker’s chance of bypassing integrity check mechanisms. The malware campaign is believed to have been active from at least February 2013 through spring 2015.",
+        "years": "2003-2015",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2016/2016.02.08.Know_Your_Enemies_2.0/ICIT-Brief-Know-Your-Enemies-2.0.pdf"
+        ]
+    },
+    "Aurora Botnet": {
+        "type": "malware",
+        "description": "In general, Aurora is “just another botnet” and typifies the advanced nature of the threat and the criminal ecosystem that supports it. It is important to note, however, that botnets linked to the criminal operators behind Aurora may have been sold or traded to other botnet operators, either in sections or on an individual victim basis. This kind of transaction is increasingly popular. Specialist botnet builders sell access to victim systems or networks for a fee – making it very simple for other entities to access confidential business systems and information without needing be technologically proficient. These transactions between criminals are very difficult to detect.",
+        "years": "2009",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2010/2010.01.13.Aurora_Botnet/Aurora_Botnet_Command_Structure.pdf"
+        ]
+    },
+    "DorkBot": {
+        "type": "malware",
+        "description": "DorkBot is a modified IRCBot that is very similar in features to NgrBot. DorkBot has a loader and a module. The bot includes the following features: process injection, hard drive wiping, etc. Different from NgrBot, DorkBot uses modified IRC commands. Some of the commands supported include: !die, !dl, !http.inj, !logins, !rc,!speed, !ssyn, !stop, !up, and !udp.",
+        "years": "2014",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2014/2014.12.12.Bots_Machines_and_the_Matrix/FTA_1014_Bots_Machines_and_the_Matrix.pdf"
+        ]
+    },
+    "DarkHotel": {
+        "type": "threat actor",
+        "description": "Darkhotel ApT is a threat actor possessing a seemingly inconsistent and con- tradictory set of characteristics, some advanced and some fairly rudimentary. in- hospitably operating for almost a decade, the threat actor is currently active. The actor’s offensive activity can be tied to specific hotel and business center Wi-fi and physical connections, some of it is also tied to p2p/file sharing networks, and they have been known to spear-phish targets as well. Darkhotel tools are detected as “Tapaoux”, “pioneer”, “Karba”, and “Nemim”, among other names.",
+        "years": "2007-2012",
+        "sources": [
+            "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7460498&tag=1"
+        ]
+    },
+    "Hidden Lynx": {
+        "type": "threat actor",
+        "description": "The Hidden Lynx group has been in operation since at least 2009 and is most likely a professional organization that offers a “hackers for hire” service. They have the capability to attack many organizations with concurrently running campaigns. They operate efficiently and move quickly and methodically. Based on these factors, the Hidden Lynx group would need to be a sizeable organization made up of between 50 and 100 individuals.",
+        "years": "2009-2013",
+        "sources": [
+            "https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections/blob/master/2013/hidden_lynx.pdf"
+        ]
+    },
+    "Ebury": {
+        "type": "malware",
+        "description": " It is a sophisticated backdoor used to steal OpenSSH credentials and maintain access to a compromised server. ",
+        "years": "2014",
+        "sources": [
+            "https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/",
+            "https://plog.sesse.net/blog/tech/2011-11-15-21-44_ebury_a_new_ssh_trojan.html",
+            "https://www.cert-bund.de/ebury-faq",
+            "https://isc.sans.edu/diary/SSHD+rootkit+in+the+wild/15229"
+        ]
+    },
+    "Threat Group 3390": {
+        "type": "threat actor",
+        "description": "Threat Group-3390 is a Chinese threat group that has extensively used strategic Web compromises to target victims.  The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, and manufacturing sectors.",
+        "years": "2010-2018",
+        "sources": [
+            "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+            "https://www.secureworks.com/research/bronze-union",
+            "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+        ]
+    },
+    "APT39": {
+        "type": "threat actor",
+        "description": "APT39 is an Iranian cyber espionage group that has been active since at least 2014. They have targeted the telecommunication and travel industries to collect personal information that aligns with Iran's national priorities.",
+        "years": "2014-2019",
+        "sources": [
+            "https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets",
+        ]
+    },
+    "menuPass": {
+        "type": "threat actor",
+        "description": "menuPass is a threat group that appears to originate from China and has been active since approximately 2009. The group has targeted healthcare, defense, aerospace, and government sectors, and has targeted Japanese victims since at least 2014. In 2016 and 2017, the group targeted managed IT service providers, manufacturing and mining companies, and a university.",
+        "years": "2009-2014",
+        "sources": [
+            "https://unit42.paloaltonetworks.com/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
+            ""
+        ]
+    },
+    "Emotet": {
+        "type": "malware",
+        "description": "Emotet is a modular malware variant which is primarily used as a downloader for other malware variants such as TrickBot and IcedID. Emotet first emerged in June 2014 and has been primarily used to target the banking sector. [1]",
+        "years": "2014-2019",
+        "sources": [
+            "https://blog.trendmicro.com/trendlabs-security-intelligence/new-banking-malware-uses-network-sniffing-for-data-theft/"
+        ]
+    },
+    "WannaCry": {
+        "type": "malware",
+        "description": "WannaCry is ransomware that was first seen in a global attack during May 2017, which affected more than 150 countries. It contains worm-like features to spread itself across a computer network using the SMBv1 exploit EternalBlue.",
+        "years": "2017",
+        "sources": [
+            "https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html",
+            "https://www.us-cert.gov/ncas/alerts/TA17-132A",
+            "https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/"
         ]
     },
     "template": {
