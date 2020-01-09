@@ -17,7 +17,7 @@ This behavior is difficult to trace and track and is indiscriminate in its infec
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Jaku,APT37,Dukes' | split: ',' %}
+{% assign malwares = 'Jaku,APT37,Dukes,OnionDuke,DarkHotel,GRIZZLY STEPPE' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

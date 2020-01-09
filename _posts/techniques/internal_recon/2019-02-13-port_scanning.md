@@ -40,7 +40,7 @@ permalink: 'techniques/internal_recon/port_scanning'
 ## Malware/Threat actors
 
 <!-- Threat actors table -->
-{% assign malwares = 'Naikon' | split: ',' %}
+{% assign malwares = 'Naikon,Group-IB,Pitty Tiger,Wild Neutron,CARBANAK,GreyEnergy' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

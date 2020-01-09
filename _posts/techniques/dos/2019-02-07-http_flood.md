@@ -16,7 +16,7 @@ permalink: 'techniques/dos/http_flood'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'DarkComet' | split: ',' %}
+{% assign malwares = 'DarkComet,APT28,Lazarus Group' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

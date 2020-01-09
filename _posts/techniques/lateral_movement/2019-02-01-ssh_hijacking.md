@@ -19,7 +19,7 @@ SSH Hijacking differs from use of Remote Services because it injects into an exi
 
 ## Malware/Threat actors
 
-{% assign malwares = '' | split: ',' %}
+{% assign malwares = 'Wild Neutron,Ebury' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

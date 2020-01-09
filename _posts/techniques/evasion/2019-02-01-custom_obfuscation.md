@@ -22,7 +22,7 @@ permalink: 'techniques/evasion/custom_obfuscation'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'TeamSpy,Wild Neutron,Lazarus Group' | split: ',' %}
+{% assign malwares = 'TeamSpy,Wild Neutron,Lazarus Group,Nettraveler,PlugX' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

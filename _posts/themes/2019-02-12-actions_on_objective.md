@@ -4,7 +4,7 @@ enabled: true
 title: "Actions on objective"
 category: themes
 bryant_kill_chain: true
-description: "The actions and objectives of the APT are dependent on its specific mission. The APT could be focused on data exfiltration, denial of service or destruction."
+description: "The attacker accomplishes his goal. Often this means stealing intellectual property, financial data, mergers and acquisition information, or Personally Identifiable Information (PII). Once the mission has been completed, most targeted attackers do not leave the environment, but maintain access in case a new mission is directed."
 permalink: 'themes/actions_on_objective'
 ---
 {{ page.description }}
@@ -24,3 +24,4 @@ Finally, in the case of destruction, an APT like the Stuxnet worm may seek to op
 ## References
 
 * [The Cyber Kill Chain Explained](https://www.forbes.com/sites/forbestechcouncil/2018/10/05/the-cyber-kill-chain-explained/#661eb07c6bdf)
+* [CYBER ATTACK LIFECYCLE](http://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/)

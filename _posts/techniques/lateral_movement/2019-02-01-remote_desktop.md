@@ -16,7 +16,7 @@ permalink: 'techniques/lateral_movement/remote_desktop'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Gh0st Rat,HURRICANE PANDA' | split: ',' %}
+{% assign malwares = 'Gh0st Rat,HURRICANE PANDA,Axiom,BlackEnergy,FIN5,TA505,Shell_Crew,BlackAtlas,Duqu Trojan' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

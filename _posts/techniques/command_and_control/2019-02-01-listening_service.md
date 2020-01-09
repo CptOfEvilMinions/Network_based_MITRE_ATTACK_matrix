@@ -16,7 +16,7 @@ permalink: 'techniques/command_and_control/listening_service'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Gh0st Rat' | split: ',' %}
+{% assign malwares = 'Gh0st Rat,Backdoor.Remsec,CARBANAK,Wiper' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

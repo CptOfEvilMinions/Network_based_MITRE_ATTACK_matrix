@@ -23,7 +23,7 @@ permalink: 'techniques/delivery/wateringhole'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Operation Dust Storm,ZooPark,Operation Cleaver,Epic Turla,Energetic Bear,APT38' | split: ',' %}
+{% assign malwares = 'Operation Dust Storm,ZooPark,Operation Cleaver,Epic Turla,Energetic Bear,APT38,Careto,Wild Neutron' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}

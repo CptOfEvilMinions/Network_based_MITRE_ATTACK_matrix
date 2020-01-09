@@ -27,7 +27,7 @@ permalink: 'techniques/evasion/public_services'
 
 ## Malware/Threat actors
 
-{% assign malwares = 'Trojan.APT.Seinup,APT37,Dukes' | split: ',' %}
+{% assign malwares = 'Trojan.APT.Seinup,APT37,Dukes,Operation Potato,APT10' | split: ',' %}
 {% assign threat_actors = site.data.threat_actors %}
 
 {% include threat_table.html %}
