@@ -116,7 +116,10 @@ layout: default
 
 <h1><u><center>Thesis Defense</center></u></h1>
 <div class="abstract_textbox">
-    <center><u><a href="https://drive.google.com/file/d/1d8cWFnwq1yY-IAXmPF7ly2bhTLcHN0mi/view?usp=sharing">Thesis paper: Network-based APT profiler.pdf</a></u></center><br>
+    <center><u><a href="https://drive.google.com/file/d/1d8cWFnwq1yY-IAXmPF7ly2bhTLcHN0mi/view?usp=sharing">Thesis paper: Network-based APT profiler.pdf</a></u></center>
+    <center><u><a href="https://docs.google.com/presentation/d/1ASkUT9-8ReYf4aBXDvjihqow7VYcjEECGYuAOwdxZoU/edit?usp=sharing">Thesis presentation: Network-based APT profiler</a></u></center>
+    <center><u><a href="https://github.com/CptOfEvilMinions/ThunderWaffle">Github repo: ThunderWaffle</a></u></center><br>
+    <center><u><a href="https://drive.google.com/drive/folders/1-CXiZw2ObgN7g3S0XSQ0xYfIi48icQE5?usp=sharing">Thesis datasets</a></u></center><br>
     <center>{% include youtube_video.html id=WIECBS32nLQ %}</center>
 </div><br>
 
