@@ -114,12 +114,19 @@ layout: default
     </p>
 </div>
 
-<h2><u><center>This matrix vs. MITRE ATT&CK</center></u></h2>
+<h1><u><center>Thesis Defense</center></u></h1>
+<div class="abstract_textbox">
+    <center><u><a href="https://drive.google.com/file/d/1d8cWFnwq1yY-IAXmPF7ly2bhTLcHN0mi/view?usp=sharing">Thesis paper: Network-based APT profiler.pdf</a></u></center><br>
+    <center>{% include youtube_video.html id=WIECBS32nLQ %}</center>
+</div><br>
+
+<h1><u><center>Our matrix and the MITRE ATT&CK</center></u></h1>
 <div class="abstract_textbox">
     <p>
-        At the current time of this project, <a href="https://attack.mitre.org/">MITRE ATT&CK matrix</a> is targeted at host-based detection and mitigation. The deliverable for this project is a MITRE ATT&CK like matrix for network-based threat hunting. In the current landscape of security, we need to monitor endpoints and network traffic. Our matrix provides a collection of techniques to perform threat hunting on a network with potential mitigations and detections.
+        At the current time of this project, <a href="https://attack.mitre.org/">MITRE ATT&CK matrix</a> is targeted at host-based detection and mitigation. The deliverable for this project is a MITRE ATT&CK like matrix for network-based threat hunting. In the current landscape of security, we need to monitor endpoints and network traffic. I am challenging that APT detection is not limited to endpoint monitoring and that detection can be performed from the network as well. This research will generate a MITRE ATT&CK style-like matrix to describe APT techniques from a network perspective that can be used for network-based threat hunting. 
     </p>
 </div>
+
 
 <h2><u><center>Attack themes</center></u></h2>
 <div class="abstract_textbox">
